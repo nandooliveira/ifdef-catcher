@@ -71,8 +71,10 @@ def extract(files, source_dir):
             os.system('tar -zxvf ' + os.path.join(source_dir,file) + ' -C ' + source_dir)
         os.remove(os.path.join(source_dir, file))
 
+
 def run_preparation():
     return 0 == os.system("cd " + REPOS_FOLDER + " && cppstats.preparation --kind discipline && cd ..")
+
 
 def count_files_v1():
     total_files_v1 = 0
@@ -92,7 +94,7 @@ def run_filter():
             continue
 
         total_files_v0 += 1
-        
+
         inter_0 = [f for f in os.listdir(VERSION_0_CPPSTATS_DIR)][0]
         inter_1 = [f for f in os.listdir(VERSION_1_CPPSTATS_DIR)][0]
 
@@ -101,7 +103,7 @@ def run_filter():
 
         if not os.path.isfile(filename_1):
             continue
-        
+
         with open(filename_0, 'r') as f0:
             with open(filename_1, 'r') as f1:
                 print(filename_0)
@@ -120,7 +122,7 @@ def run_filter():
                             total_deleted += 1
                 except:
                     print('error')
-    
+
     return total_files_v0, total_files_v1, total_deleted
 
 def get_blocks(xml_path):
@@ -160,7 +162,7 @@ def is_target(node):
 
 def get_block(node):
     block = get_text(node)
-    
+
     endifs = 1
     sibling = node.nextSibling
     while (sibling != None):
@@ -169,7 +171,7 @@ def get_block(node):
                 endifs -= 1
             elif is_target(sibling):
                 endifs += 1
-            
+
             block += get_text(sibling)
             if endifs == 0:
                 break
@@ -213,6 +215,7 @@ def fix_csv_content(project_name, version, csv_path):
             columns[0] = project_name + '-' + version
             f_out.write(';'.join(columns))
 
+
 def run(projects):
     with open(CPPSTATS_INPUT_TXT, 'w') as f:
         f.write(VERSION_0_FOLDER + '\n')
@@ -220,7 +223,7 @@ def run(projects):
 
     projects_stack = list(projects.keys())
     write_head_totals = True
-    
+
     while len(projects_stack) != 0:
         project_name = projects_stack.pop()
         project = projects[project_name]
@@ -258,8 +261,8 @@ def run(projects):
                 get_results(project_name, project[VERSION_0_STRING_KEY], project[VERSION_1_STRING_KEY])
 
         # delete version 0 and 1 folders
-        shutil.rmtree(VERSION_0_FOLDER)
-        shutil.rmtree(VERSION_1_FOLDER)
+        shutil.rmtree(VERSION_0_FOLDER, ignore_errors=True)
+        shutil.rmtree(VERSION_1_FOLDER, ignore_errors=True)
 
 def get_total_v1_all_projects(projects):
     with open(CPPSTATS_INPUT_TXT, 'w') as f:
