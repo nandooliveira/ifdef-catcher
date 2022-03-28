@@ -64,6 +64,10 @@ with open('compare.csv', 'w') as f:
         #else:
         #    first = projects[project][1].split(',')
         #    second = projects[project][0].split(',')
+        print("SECOND")
+        print(second[3])
+        print("FIRST")
+        print(first[3])
         diff_loc = int(second[3]) - int(first[3])
         diff_blocks = int(second[4]) - int(first[4])
         diff_disciplined = float(second[5]) - float(first[5])
