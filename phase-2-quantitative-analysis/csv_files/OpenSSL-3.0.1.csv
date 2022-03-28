@@ -1,0 +1,2 @@
+projectname;loc;compilationunit;functiontype;siblings;wrapperif;conditionalcase;conditionalelif;parameter;expression;undisciplinedknown;undisciplinedunknown;disciplined/overallblocks;overallblocks
+OpenSSL-3.0.1;462540;1643;520;3189;0;0;0;0;57;57;489;0.907426246185;5898
