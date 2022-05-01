@@ -4,7 +4,6 @@ Toxic,29,249,17
 Torque,11078,11327,0
 Rsyslog,787,1115,0
 Rspamd,666,2178,0
-Riot,0,0,0
 Postgres,7200,11504,0
 Parrot,1009,1104,0
 OpenVPN,445,1042,0
@@ -33,5 +32,7 @@ DynamRIO,2030,4341,0
 Dia,1996,2129,0
 Contiki,9794,10788,0
 Cgminer,307,559,0
-Busybox,0,2427,0
 BfgMiner ,307,321,0
+project,total files version 0,total files version 1,total removed
+Riot,1274,42466,0
+Busybox,2773,2427,0

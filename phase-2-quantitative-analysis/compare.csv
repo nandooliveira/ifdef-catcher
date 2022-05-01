@@ -1,6 +1,6 @@
 projectname,diff loc,diff blocks,diff % disciplined,diff disciplined
 BfgMiner ,-47612,-715,0.82,-660
-Busybox,183135,3821,92.99,3552
+Busybox,2973,331,0.07,309
 Cgminer,48348,533,0.39,503
 Contiki,39379,354,-0.49,304
 Dia,10183,-250,11.8,-182
@@ -29,7 +29,7 @@ OpenSSL,199936,539,1.28,557
 OpenVPN,25830,-111,0.02,-102
 Parrot,10089,160,0.87,162
 Postgres,453468,1171,-0.71,991
-Riot,0,0,0.0,0
+Riot,1429443,22594,-25.92,16421
 Rspamd,172906,1832,-3.48,1493
 Rsyslog,64368,385,1.53,341
 Torque,19388,26,0.2,26
