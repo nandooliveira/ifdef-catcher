@@ -1,44 +1,176 @@
 [
   {
-    "name": "glibc",
-    "url": "https://github.com/bminor/glibc",
-    "since": "2008-11-13",
+    "name": "gnumeric",
+    "url": "https://github.com/luke-jr/bfgminer",
+    "since": "2010-11-23",
     "method": "date"
   },
   {
-    "name": "gnumeric",
-    "url": "https://github.com/GNOME/gnumeric",
-    "since": "2009-03-22",
+    "name": "cgminer",
+    "url": "https://github.com/dmaxl/cgminer",
+    "since": "2010-11-23",
+    "method": "date"
+  },
+  {
+    "name": "contiki",
+    "url": "https://github.com/contiki-os/contiki",
+    "since": "2006-06-17",
+    "method": "date"
+  },
+  {
+    "name": "dia",
+    "url": "https://github.com/GNOME/dia",
+    "since": "1997-01-03",
+    "method": "date"
+  },
+  {
+    "name": "dynamorio",
+    "url": "https://github.com/DynamoRIO/dynamorio",
+    "since": "2009-02-10",
+    "method": "date"
+  },
+  {
+    "name": "etlegacy",
+    "url": "https://github.com/etlegacy/etlegacy",
+    "since": "2010-08-14",
+    "method": "date"
+  },
+  {
+    "name": "freebsd",
+    "url": "https://github.com/freebsd/freebsd-src",
+    "since": "1993-06-12",
+    "method": "date"
+  },
+  {
+    "name": "fvwm",
+    "url": "https://github.com/fvwmorg/fvwm",
+    "since": "1998-10-14",
+    "method": "date"
+  },
+  {
+    "name": "glfw",
+    "url": "https://github.com/glfw/glfw",
+    "since": "2009-09-29",
     "method": "date"
   },
   {
     "name": "gnuplot",
     "url": "https://github.com/gnuplot/gnuplot",
-    "since": "2009-03-30",
+    "since": "1987-01-26",
     "method": "date"
   },
   {
-    "name": "lighttpd",
-    "url": "https://github.com/lighttpd/lighttpd1.4",
-    "since": "2009-03-07",
+    "name": "h2o",
+    "url": "https://github.com/h2o/h2o",
+    "since": "2014-06-24",
     "method": "date"
   },
   {
-    "name": "openldap",
-    "url": "https://github.com/openldap/openldap",
-    "since": "2009-04-05",
+    "name": "ioq3",
+    "url": "https://github.com/ioquake/ioq3",
+    "since": "2012-01-31",
     "method": "date"
   },
   {
-    "name": "tcl",
-    "url": "https://github.com/tcltk/tcl",
-    "since": "2009-04-15",
+    "name": "irssi",
+    "url": "https://github.com/irssi/irssi",
+    "since": "1999-09-03",
     "method": "date"
   },
   {
-    "name": "xterm",
-    "url": "https://github.com/ThomasDickey/xterm-snapshots",
-    "since": "2016-08-07",
+    "name": "libevent",
+    "url": "https://github.com/libevent/libevent",
+    "since": "2002-04-09",
+    "method": "date"
+  },
+  {
+    "name": "mpvplayer",
+    "url": "https://github.com/mpv-player/mpv",
+    "since": "2001-02-24",
+    "method": "date"
+  },
+  {
+    "name": "msysgit",
+    "url": "https://github.com/msysgit/msysgit",
+    "since": "2007-08-06",
+    "method": "date"
+  },
+  {
+    "name": "mupen64plus",
+    "url": "https://github.com/mupen64plus/mupen64plus-core",
+    "since": "2009-10-02",
+    "method": "date"
+  },
+  {
+    "name": "nginx",
+    "url": "https://github.com/nginx/nginx",
+    "since": "2002-08-06",
+    "method": "date"
+  },
+  {
+    "name": "numpy",
+    "url": "https://github.com/numpy/numpy",
+    "since": "2001-12-18",
+    "method": "date"
+  },
+  {
+    "name": "openssl",
+    "url": "https://github.com/openssl/openssl",
+    "since": "1998-12-21",
+    "method": "date"
+  },
+  {
+    "name": "openvpn",
+    "url": "https://github.com/OpenVPN/openvpn",
+    "since": "2005-09-26",
+    "method": "date"
+  },
+  {
+    "name": "parrot",
+    "url": "https://github.com/parrot/parrot",
+    "since": "2001-08-29",
+    "method": "date"
+  },
+  {
+    "name": "postgres",
+    "url": "https://github.com/postgres/postgres",
+    "since": "1996-07-09",
+    "method": "date"
+  },
+  {
+    "name": "riot",
+    "url": "https://github.com/riot/riot",
+    "since": "2013-09-27",
+    "method": "date"
+  },
+  {
+    "name": "rspamd",
+    "url": "https://github.com/rspamd/rspamd",
+    "since": "2008-05-08",
+    "method": "date"
+  },
+  {
+    "name": "rsyslog",
+    "url": "https://github.com/rsyslog/rsyslog",
+    "since": "2004-11-08",
+    "method": "date"
+  },
+  {
+    "name": "torque",
+    "url": "https://github.com/adaptivecomputing/torque",
+    "since": "2005-02-06",
+    "method": "date"
+  },
+  {
+    "name": "toxic",
+    "url": "https://github.com/JFreegman/toxic",
+    "since": "2013-07-29",
+    "method": "date"
+  },
+  {
+    "name": "vim",
+    "url": "https://github.com/vim/vim",
+    "since": "2004-06-13",
     "method": "date"
   }
 ]
