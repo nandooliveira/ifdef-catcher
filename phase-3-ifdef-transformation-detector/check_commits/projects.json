@@ -1,47 +1,5 @@
 [
   {
-    "name": "gnumeric",
-    "url": "https://github.com/luke-jr/bfgminer",
-    "since": "2010-11-23",
-    "method": "date"
-  },
-  {
-    "name": "cgminer",
-    "url": "https://github.com/dmaxl/cgminer",
-    "since": "2010-11-23",
-    "method": "date"
-  },
-  {
-    "name": "contiki",
-    "url": "https://github.com/contiki-os/contiki",
-    "since": "2006-06-17",
-    "method": "date"
-  },
-  {
-    "name": "dia",
-    "url": "https://github.com/GNOME/dia",
-    "since": "1997-01-03",
-    "method": "date"
-  },
-  {
-    "name": "dynamorio",
-    "url": "https://github.com/DynamoRIO/dynamorio",
-    "since": "2009-02-10",
-    "method": "date"
-  },
-  {
-    "name": "etlegacy",
-    "url": "https://github.com/etlegacy/etlegacy",
-    "since": "2010-08-14",
-    "method": "date"
-  },
-  {
-    "name": "freebsd",
-    "url": "https://github.com/freebsd/freebsd-src",
-    "since": "1993-06-12",
-    "method": "date"
-  },
-  {
     "name": "fvwm",
     "url": "https://github.com/fvwmorg/fvwm",
     "since": "1998-10-14",
