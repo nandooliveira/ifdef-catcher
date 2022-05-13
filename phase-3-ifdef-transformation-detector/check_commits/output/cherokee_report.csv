@@ -1,3 +1,0 @@
-url,old_path,new_path,old_loc,new_loc,old_block,new_block,old_disciplined,new_disciplined,old_undisciplined,new_undisciplined,commit_hash,author
-https://github.com/cherokee/webserver,cherokee/downloader.c,cherokee/downloader.c,433,434,1,1,1,0,0,1,7d4801a4a74a14447a354f1e7ac2c31384f20b0d,Committer [name=Stefan de Konink; email=stefan@konink.de]
-https://github.com/cherokee/webserver,cherokee/downloader.c,cherokee/downloader.c,434,434,1,1,0,1,1,0,015daa747f14576dad6cdd6a81d452d3f7948c87,Committer [name=Stefan de Konink; email=stefan@konink.de]

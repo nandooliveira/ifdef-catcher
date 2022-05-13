@@ -1,72 +1,266 @@
 {
-		"Cgminer": {
-		"domain": "",
-		"previous-url": "https://github.com/ckolivas/cgminer/archive/refs/tags/v2.1.1.zip",
-		"current-url": "https://github.com/ckolivas/cgminer/archive/refs/tags/v4.11.1.zip",
-		"previous-version": "2.1.1",
-		"current-version": "4.11.1"
-	},
-	"DynamRIO": {
-		"domain": "",
-		"previous-url": "https://github.com/DynamoRIO/drmemory/archive/refs/tags/release_1_5_0.zip",
-		"current-url": "https://github.com/DynamoRIO/drmemory/archive/refs/tags/cronbuild-2.5.18967.zip",
-		"previous-version": "1.5.0",
-		"current-version": "2.5.18967"
-	},
-	"Gawk": {
-		"domain": "",
-		"previous-url": "https://github.com/Distrotech/gawk/archive/refs/tags/gawk-4.0.1.zip",
-		"current-url": "https://github.com/Distrotech/gawk/archive/refs/tags/gawk-4.1.3.zip",
-		"previous-version": "4.0.1",
-		"current-version": "4.1.3"
-	},
-	"GLibc": {
-		"domain": "",
-		"previous-url": "https://github.com/lattera/glibc/archive/9f1151705e3d861a4d6d680e74158cd708119053.zip",
-		"current-url": "https://github.com/lattera/glibc/archive/895ef79e04a953cac1493863bcae29ad85657ee1.zip",
-		"previous-version": "03.01.2012",
-		"current-version": "24.08.2018"
-	},
-	"LibPNG": {
-		"domain": "",
-		"previous-url": "https://github.com/glennrp/libpng/archive/refs/tags/v1.5.8beta01.zip",
-		"current-url": "https://github.com/glennrp/libpng/archive/refs/tags/v1.6.37.zip",
-		"previous-version": "1.5.8",
-		"current-version": "1.6.37"
-	},
-	"LibSSH": {
-		"domain": "",
-		"previous-url": "https://github.com/substack/libssh/archive/c073979235eb0d0587ac9cb3c192e91e32d34b06.zip",
-		"current-url": "https://github.com/substack/libssh/archive/c073979235eb0d0587ac9cb3c192e91e32d34b06.zip",
-		"previous-version": "23.06.2012",
-		"current-version": "23.06.2012"
-	},
-	"Libxml2": {
-		"domain": "",
-		"previous-url": "https://github.com/GNOME/libxml2/archive/refs/tags/v2.8.0-rc1.zip",
-		"current-url": "https://github.com/GNOME/libxml2/archive/refs/tags/v2.9.12.zip",
-		"previous-version": "2.8.0",
-		"current-version": "2.9.12"
-	},
-	"Msysgit": {
-		"domain": "",
-		"previous-url": "https://github.com/msysgit/git/archive/refs/tags/v1.7.9.msysgit.0.zip",
-		"current-url": "https://github.com/msysgit/git/archive/refs/tags/msysgit-was-retired.zip",
-		"previous-version": "1.7.9",
-		"current-version": "18.08.2015"
-	},
-	"Mupen64": {
-		"domain": "",
-		"previous-url": "https://github.com/libretro/mupen64plus-libretro/archive/89b49cac2b6e4d99ec298e80e714b4569b61472f.zip",
-		"current-url": "https://github.com/libretro/mupen64plus-libretro/archive/ab8134ac90a567581df6de4fc427dd67bfad1b17.zip",
-		"previous-version": "16.06.2016",
-		"current-version": "05.07.2019"
-	},
-	"NGinx": {
-		"domain": "",
-		"previous-url": "https://github.com/git-mirror/nginx/archive/refs/tags/release-1.1.13.zip",
-		"current-url": "https://github.com/git-mirror/nginx/archive/refs/tags/release-1.4.0.zip",
-		"previous-version": "1.1.13",
-		"current-version": "1.4.13"
-	}
+    "BfgMiner ": {
+        "domain": "",
+        "previous-url": "https://github.com/luke-jr/bfgminer/archive/refs/tags/v2.1.1.zip",
+        "current-url": "https://github.com/luke-jr/bfgminer/archive/refs/tags/bfgminer-5.5.0.zip",
+        "previous-version": "v2.1.1",
+        "current-version": "5.5.0"
+    },
+    "Busybox": {
+        "domain": "",
+        "previous-url": "https://drive.google.com/uc?id=14nDaUwd8U1NpkxYOq7N5Rf1wiYqhxfon",
+        "current-url": "https://drive.google.com/uc?id=1x5AfPUgDF8Kf94AYuf569gLGLkPlCvzj",
+        "google-drive-filename-v0": "busybox-1.9.4.zi\u1e55",
+        "google-drive-filename-v1": "busybox-1.35.0.zip",
+        "previous-version": "1.9.4",
+        "current-version": "1.35.0"
+    },
+    "Cgminer": {
+        "domain": "",
+        "previous-url": "https://github.com/dmaxl/cgminer/archive/refs/tags/v2.1.1.zip",
+        "current-url": "https://github.com/dmaxl/cgminer/archive/refs/tags/v4.3.5-scrypt.2.zip",
+        "previous-version": "2.1.1",
+        "current-version": "4.3.5"
+    },
+    "Contiki": {
+        "domain": "",
+        "previous-url": "https://github.com/contiki-os/contiki/archive/refs/tags/2.6-rc0.zip",
+        "current-url": "https://github.com/contiki-os/contiki/archive/refs/tags/3.0.zip",
+        "previous-version": "2.6",
+        "current-version": "3.0"
+    },
+    "Dia": {
+        "domain": "",
+        "previous-url": "https://github.com/GNOME/dia/archive/148c610d6ef0efa12a78da5262c4cea52b6e8e5f.zip",
+        "current-url": "https://github.com/GNOME/dia/archive/0997887d97f01be28bf3886dfd3e2002de437930.zip",
+        "previous-version": "2012",
+        "current-version": "2021"
+    },
+    "DynamRIO": {
+        "domain": "",
+        "previous-url": "https://github.com/DynamoRIO/dynamorio/archive/refs/tags/release_3_1_0.zip",
+        "current-url": "https://github.com/DynamoRIO/dynamorio/archive/refs/tags/cronbuild-9.0.18983.zip",
+        "previous-version": "3.1.0",
+        "current-version": "9.0.1"
+    },
+    "Etlegacy": {
+        "domain": "",
+        "previous-url": "https://github.com/etlegacy/etlegacy/archive/refs/tags/v2.70rc1.zip",
+        "current-url": "https://github.com/etlegacy/etlegacy/archive/refs/tags/v2.79.0.zip",
+        "previous-version": "2.70",
+        "current-version": "2.79.0"
+    },
+    "FreeBSD": {
+        "domain": "",
+        "previous-url": "https://github.com/freebsd/freebsd-src/archive/refs/tags/release/9.0.0.zip",
+        "current-url": "https://github.com/freebsd/freebsd-src/archive/refs/tags/release/12.3.0.zip",
+        "previous-version": "9.0.0",
+        "current-version": "12.3.0"
+    },
+    "Fvwm": {
+        "domain": "",
+        "previous-url": "https://github.com/fvwmorg/fvwm/archive/refs/tags/version-2_6_4.zip",
+        "current-url": "https://github.com/fvwmorg/fvwm/archive/refs/tags/2.6.9.zip",
+        "previous-version": "2.6.4",
+        "current-version": "2.6.9"
+    },
+    "Gawk": {
+        "domain": "",
+        "previous-url": "https://drive.google.com/uc?id=1jPTJwUSupz0TWQx_K4xBQv7piTv68HmY",
+        "current-url": "https://drive.google.com/uc?id=1YRg3xVBkv_h138aMymv9Nei2IAo96z2_",
+        "google-drive-filename-v0": "gawk-gawk-4.0.1.zip",
+        "google-drive-filename-v1": "gawk-gawk-5.1.1.zip",
+        "previous-version": "4.0.1",
+        "current-version": "5.1.1"
+    },
+    "Glfw": {
+        "domain": "",
+        "previous-url": "https://github.com/glfw/glfw/archive/refs/tags/3.0.zip",
+        "current-url": "https://github.com/glfw/glfw/archive/refs/tags/3.3.6.zip",
+        "previous-version": "3.0",
+        "current-version": "3.3.6"
+    },
+    "GLibc": {
+        "domain": "",
+        "previous-url": "https://drive.google.com/uc?id=1L6dx8ApR4hU3JpwDX4EYH1KbVHQMvmz-",
+        "current-url": "https://drive.google.com/uc?id=1kwHqHr5y_EgleOSovvSPBFUKWKGwLuPd",
+        "google-drive-filename-v0": "glibc-2.14.zip",
+        "google-drive-filename-v1": "glibc-2.34.9000.zip",
+        "previous-version": "2.14",
+        "current-version": "2.34.9000"
+    },
+    "GNUPlot": {
+        "domain": "",
+        "previous-url": "https://github.com/gnuplot/gnuplot/archive/refs/tags/4.6.0.zip",
+        "current-url": "https://github.com/gnuplot/gnuplot/archive/refs/tags/5.4.2.zip",
+        "previous-version": "4.6.0",
+        "current-version": "5.4.2"
+    },
+    "H2O": {
+        "domain": "",
+        "previous-url": "https://github.com/h2o/h2o/archive/refs/tags/spawn-final.zip",
+        "current-url": "https://github.com/h2o/h2o/archive/refs/tags/v2.3.0-beta2.zip",
+        "previous-version": "0.8.0",
+        "current-version": "2.3.0"
+    },
+    "Ioq3": {
+        "domain": "",
+        "previous-url": "https://github.com/ioquake/ioq3/archive/73744a84c60ad3f45258c75b388b306a108340fd.zip",
+        "current-url": "https://github.com/ioquake/ioq3/archive/84daa2826798a84627f7f93f721182028ed007e3.zip",
+        "previous-version": "2012",
+        "current-version": "2021"
+    },
+    "Irssi": {
+        "domain": "",
+        "previous-url": "https://github.com/irssi/irssi/archive/refs/tags/0.8.16.zip",
+        "current-url": "https://github.com/irssi/irssi/archive/refs/tags/1.2.3.zip",
+        "previous-version": "0.8.16",
+        "current-version": "1.2.3"
+    },
+    "Libevent": {
+        "domain": "",
+        "previous-url": "https://github.com/libevent/libevent/archive/refs/tags/release-2.0.17-stable.zip",
+        "current-url": "https://github.com/libevent/libevent/archive/refs/tags/release-2.1.12-stable.zip",
+        "previous-version": "2.0.17",
+        "current-version": "2.1.12"
+    },
+    "LibPNG": {
+        "domain": "",
+        "previous-url": "https://drive.google.com/uc?id=1JnC951v0FFA6HAmnKjAi1UeM0n59scqU",
+        "current-url": "https://drive.google.com/uc?id=1JVdN9YW-AQeveKKavT2BWQXpIXWMUe6O",
+        "google-drive-filename-v0": "libpng-code-1.2.50.zip",
+        "google-drive-filename-v1": "libpng-code-1.6.31.zip",
+        "previous-version": "1.2.50",
+        "current-version": "1.6.31"
+    },
+    "LibSSH": {
+        "domain": "",
+        "previous-url": "https://drive.google.com/uc?id=14Y9MRDH8KOGT9840TmBC91AuPKR28QmS",
+        "current-url": "https://drive.google.com/uc?id=1hPjZcpmJsMwso5eeyiQyORxf_mVH0ula",
+        "google-drive-filename-v0": "libssh-0.5.3.zip",
+        "google-drive-filename-v1": "libssh-0.9.6.zip",
+        "previous-version": "0.5.3",
+        "current-version": "0.9.6"
+    },
+    "Libxml2": {
+        "domain": "",
+        "previous-url": "https://drive.google.com/uc?id=19_VgtejGCN03IjgTiDVuZlKfqXX7Gy5g",
+        "current-url": "https://drive.google.com/uc?id=1pGSuptgzNF1E1tglcqSW55fHDTSB5nnb/view",
+        "google-drive-filename-v0": "linxml2-2.8.0.zip",
+        "google-drive-filename-v1": "linxml2-2.9.12.zip",
+        "previous-version": "2.8.0",
+        "current-version": "2.9.12"
+    },
+    "MoarVM": {
+        "domain": "",
+        "previous-url": "https://github.com/MoarVM/MoarVM/archive/refs/tags/2013.10.zip",
+        "current-url": "https://github.com/MoarVM/MoarVM/archive/refs/tags/2021.12.zip",
+        "previous-version": "2013.10",
+        "current-version": "2021.12"
+    },
+    "MPV-Player": {
+        "domain": "",
+        "previous-url": "https://github.com/mpv-player/mpv/archive/refs/tags/v0.1.0.zip",
+        "current-url": "https://github.com/mpv-player/mpv/archive/refs/tags/v0.34.0.zip",
+        "previous-version": "0.1.0",
+        "current-version": "0.34.0"
+    },
+    "Msysgit": {
+        "domain": "",
+        "previous-url": "https://github.com/msysgit/msysgit/archive/refs/tags/Git-1.7.9-preview20120201.zip",
+        "current-url": "https://github.com/msysgit/msysgit/archive/refs/tags/Git-1.9.5-preview20150319.zip",
+        "previous-version": "1.7.9",
+        "current-version": "1.9.5"
+    },
+    "Mupen64": {
+        "domain": "",
+        "previous-url": "https://github.com/mupen64plus/mupen64plus-core/archive/refs/tags/1.99.5.zip",
+        "current-url": "https://github.com/mupen64plus/mupen64plus-core/archive/refs/tags/2.5.9.zip",
+        "previous-version": "1.99.5",
+        "current-version": "2.5.9"
+    },
+    "NGinx": {
+        "domain": "",
+        "previous-url": "https://github.com/nginx/nginx/archive/refs/tags/release-1.1.13.zip",
+        "current-url": "https://github.com/nginx/nginx/archive/refs/tags/release-1.21.5.zip",
+        "previous-version": "1.1.13",
+        "current-version": "1.21.5"
+    },
+    "Numpy": {
+        "domain": "",
+        "previous-url": "https://github.com/numpy/numpy/archive/refs/tags/v1.6.2rc1.zip",
+        "current-url": "https://github.com/numpy/numpy/archive/refs/tags/v1.22.0.zip",
+        "previous-version": "1.6.2",
+        "current-version": "1.22.0"
+    },
+    "OpenSSL": {
+        "domain": "",
+        "previous-url": "https://github.com/openssl/openssl/archive/refs/tags/OpenSSL_1_0_1-beta1.zip",
+        "current-url": "https://github.com/openssl/openssl/archive/refs/tags/openssl-3.0.1.zip",
+        "previous-version": "1.0.1",
+        "current-version": "3.0.1"
+    },
+    "OpenVPN": {
+        "domain": "",
+        "previous-url": "https://github.com/OpenVPN/openvpn/archive/refs/tags/v2.3-alpha1.zip",
+        "current-url": "https://github.com/OpenVPN/openvpn/archive/refs/tags/v2.5.5.zip",
+        "previous-version": "2.3",
+        "current-version": "2.5.5"
+    },
+    "Parrot": {
+        "domain": "",
+        "previous-url": "https://github.com/parrot/parrot/archive/refs/tags/RELEASE_4_0_0.zip",
+        "current-url": "https://github.com/parrot/parrot/archive/refs/tags/RELEASE_8_1_0.zip",
+        "previous-version": "4.0.0",
+        "current-version": "8.1.10"
+    },
+    "Postgres": {
+        "domain": "",
+        "previous-url": "https://github.com/postgres/postgres/archive/refs/tags/REL8_3_18.zip",
+        "current-url": "https://github.com/postgres/postgres/archive/refs/tags/REL_14_1.zip",
+        "previous-version": "8.3.18",
+        "current-version": "14.1"
+    },
+    "Riot": {
+        "domain": "",
+        "previous-url": "https://github.com/riot/riot/archive/refs/tags/v0.9.2.zip",
+        "current-url": "https://github.com/riot/riot/archive/refs/tags/v6.1.1.zip",
+        "previous-version": "0.9.2",
+        "current-version": "6.1.1"
+    },
+    "Rspamd": {
+        "domain": "",
+        "previous-url": "https://github.com/rspamd/rspamd/archive/refs/tags/0.4.7.zip",
+        "current-url": "https://github.com/rspamd/rspamd/archive/refs/tags/3.1.zip",
+        "previous-version": "0.4.7",
+        "current-version": "3.1"
+    },
+    "Rsyslog": {
+        "domain": "",
+        "previous-url": "https://github.com/rsyslog/rsyslog/archive/refs/tags/v6.2.0.zip",
+        "current-url": "https://github.com/rsyslog/rsyslog/archive/refs/tags/v8.2112.0.zip",
+        "previous-version": "6.2.0",
+        "current-version": "8.2112.0"
+    },
+    "Torque": {
+        "domain": "",
+        "previous-url": "https://github.com/adaptivecomputing/torque/archive/refs/tags/v4.2.2.zip",
+        "current-url": "https://github.com/adaptivecomputing/torque/archive/refs/tags/v5.1.1.zip",
+        "previous-version": "4.2.2",
+        "current-version": "5.1.1"
+    },
+    "Toxic": {
+        "domain": "",
+        "previous-url": "https://github.com/JFreegman/toxic/archive/refs/tags/prealpha_win32_r8.zip",
+        "current-url": "https://github.com/JFreegman/toxic/archive/refs/tags/v0.11.3.zip",
+        "previous-version": "0.32",
+        "current-version": "0.11.3"
+    },
+    "Vim": {
+        "domain": "",
+        "previous-url": "https://github.com/vim/vim/archive/refs/tags/v7.3.391.zip",
+        "current-url": "https://github.com/vim/vim/archive/refs/tags/v8.2.3963.zip",
+        "previous-version": "7.2.391",
+        "current-version": "8.2.3963"
+    }
 }

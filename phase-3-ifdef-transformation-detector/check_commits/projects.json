@@ -1,44 +1,38 @@
 [
   {
-    "name": "glibc",
-    "url": "https://github.com/bminor/glibc",
-    "since": "2008-11-13",
+    "name": "riot",
+    "url": "https://github.com/riot/riot",
+    "since": "2013-09-27",
     "method": "date"
   },
   {
-    "name": "gnumeric",
-    "url": "https://github.com/GNOME/gnumeric",
-    "since": "2009-03-22",
+    "name": "rspamd",
+    "url": "https://github.com/rspamd/rspamd",
+    "since": "2008-05-08",
     "method": "date"
   },
   {
-    "name": "gnuplot",
-    "url": "https://github.com/gnuplot/gnuplot",
-    "since": "2009-03-30",
+    "name": "rsyslog",
+    "url": "https://github.com/rsyslog/rsyslog",
+    "since": "2004-11-08",
     "method": "date"
   },
   {
-    "name": "lighttpd",
-    "url": "https://github.com/lighttpd/lighttpd1.4",
-    "since": "2009-03-07",
+    "name": "torque",
+    "url": "https://github.com/adaptivecomputing/torque",
+    "since": "2005-02-06",
     "method": "date"
   },
   {
-    "name": "openldap",
-    "url": "https://github.com/openldap/openldap",
-    "since": "2009-04-05",
+    "name": "toxic",
+    "url": "https://github.com/JFreegman/toxic",
+    "since": "2013-07-29",
     "method": "date"
   },
   {
-    "name": "tcl",
-    "url": "https://github.com/tcltk/tcl",
-    "since": "2009-04-15",
-    "method": "date"
-  },
-  {
-    "name": "xterm",
-    "url": "https://github.com/ThomasDickey/xterm-snapshots",
-    "since": "2016-08-07",
+    "name": "vim",
+    "url": "https://github.com/vim/vim",
+    "since": "2004-06-13",
     "method": "date"
   }
 ]
