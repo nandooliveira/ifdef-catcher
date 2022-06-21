@@ -1,176 +1,254 @@
 [
   {
-    "name": "gnumeric",
+    "name": "bfgminer",
     "url": "https://github.com/luke-jr/bfgminer",
-    "since": "2010-11-23",
-    "method": "date"
+    "from": "2012-01-01",
+    "to": "2021-12-31",
+    "method": "betweenDates"
+  },
+  {
+    "name": "busybox",
+    "url": "https://git.busybox.net/busybox",
+    "from": "2012-01-01",
+    "to": "2021-12-31",
+    "method": "betweenDates"
   },
   {
     "name": "cgminer",
-    "url": "https://github.com/dmaxl/cgminer",
-    "since": "2010-11-23",
-    "method": "date"
+    "url": "https://github.com/ckolivas/cgminer",
+    "from": "2012-01-01",
+    "to": "2021-12-31",
+    "method": "betweenDates"
   },
   {
     "name": "contiki",
     "url": "https://github.com/contiki-os/contiki",
-    "since": "2006-06-17",
-    "method": "date"
+    "from": "2012-01-01",
+    "to": "2021-12-31",
+    "method": "betweenDates"
   },
   {
     "name": "dia",
     "url": "https://github.com/GNOME/dia",
-    "since": "1997-01-03",
-    "method": "date"
+    "from": "2012-01-01",
+    "to": "2021-12-31",
+    "method": "betweenDates"
   },
   {
     "name": "dynamorio",
     "url": "https://github.com/DynamoRIO/dynamorio",
-    "since": "2009-02-10",
-    "method": "date"
+    "from": "2012-01-01",
+    "to": "2021-12-31",
+    "method": "betweenDates"
   },
   {
     "name": "etlegacy",
     "url": "https://github.com/etlegacy/etlegacy",
-    "since": "2010-08-14",
-    "method": "date"
+    "from": "2012-01-01",
+    "to": "2021-12-31",
+    "method": "betweenDates"
   },
   {
     "name": "freebsd",
     "url": "https://github.com/freebsd/freebsd-src",
-    "since": "1993-06-12",
-    "method": "date"
+    "from": "2012-01-01",
+    "to": "2021-12-31",
+    "method": "betweenDates"
   },
   {
     "name": "fvwm",
     "url": "https://github.com/fvwmorg/fvwm",
-    "since": "1998-10-14",
-    "method": "date"
+    "from": "2012-01-01",
+    "to": "2021-12-31",
+    "method": "betweenDates"
+  },
+  {
+    "name": "gawk",
+    "url": "https://git.savannah.gnu.org/git/gawk.git",
+    "from": "2012-01-01",
+    "to": "2021-12-31",
+    "method": "betweenDates"
   },
   {
     "name": "glfw",
     "url": "https://github.com/glfw/glfw",
-    "since": "2009-09-29",
-    "method": "date"
+    "from": "2012-01-01",
+    "to": "2021-12-31",
+    "method": "betweenDates"
+  },
+  {
+    "name": "glibc",
+    "url": "https://sourceware.org/git/glibc.git",
+    "from": "2012-01-01",
+    "to": "2021-12-31",
+    "method": "betweenDates"
   },
   {
     "name": "gnuplot",
     "url": "https://github.com/gnuplot/gnuplot",
-    "since": "1987-01-26",
-    "method": "date"
+    "from": "2012-01-01",
+    "to": "2021-12-31",
+    "method": "betweenDates"
   },
   {
     "name": "h2o",
     "url": "https://github.com/h2o/h2o",
-    "since": "2014-06-24",
-    "method": "date"
+    "from": "2012-01-01",
+    "to": "2021-12-31",
+    "method": "betweenDates"
   },
   {
     "name": "ioq3",
     "url": "https://github.com/ioquake/ioq3",
-    "since": "2012-01-31",
-    "method": "date"
+    "from": "2012-01-01",
+    "to": "2021-12-31",
+    "method": "betweenDates"
   },
   {
     "name": "irssi",
     "url": "https://github.com/irssi/irssi",
-    "since": "1999-09-03",
-    "method": "date"
+    "from": "2012-01-01",
+    "to": "2021-12-31",
+    "method": "betweenDates"
   },
   {
     "name": "libevent",
     "url": "https://github.com/libevent/libevent",
-    "since": "2002-04-09",
-    "method": "date"
+    "from": "2012-01-01",
+    "to": "2021-12-31",
+    "method": "betweenDates"
+  },
+  {
+    "name": "libpng",
+    "url": "https://git.code.sf.net/p/libpng/code",
+    "from": "2012-01-01",
+    "to": "2021-12-31",
+    "method": "betweenDates"
+  },
+  {
+    "name": "libssh",
+    "url": "git://git.libssh.org/projects/libssh.git",
+    "from": "2012-01-01",
+    "to": "2021-12-31",
+    "method": "betweenDates"
+  },
+  {
+    "name": "libxml2",
+    "url": "https://github.com/GNOME/libxml2",
+    "from": "2012-01-01",
+    "to": "2021-12-31",
+    "method": "betweenDates"
+  },
+  {
+    "name": "moarvm",
+    "url": "https://github.com/MoarVM/MoarVM",
+    "from": "2012-01-01",
+    "to": "2021-12-31",
+    "method": "betweenDates"
   },
   {
     "name": "mpvplayer",
     "url": "https://github.com/mpv-player/mpv",
-    "since": "2001-02-24",
-    "method": "date"
+    "from": "2012-01-01",
+    "to": "2021-12-31",
+    "method": "betweenDates"
   },
   {
     "name": "msysgit",
-    "url": "https://github.com/msysgit/msysgit",
-    "since": "2007-08-06",
-    "method": "date"
+    "url": "https://github.com/msysgit/git",
+    "from": "2012-01-01",
+    "to": "2021-12-31",
+    "method": "betweenDates"
   },
   {
     "name": "mupen64plus",
     "url": "https://github.com/mupen64plus/mupen64plus-core",
-    "since": "2009-10-02",
-    "method": "date"
+    "from": "2012-01-01",
+    "to": "2021-12-31",
+    "method": "betweenDates"
   },
   {
     "name": "nginx",
     "url": "https://github.com/nginx/nginx",
-    "since": "2002-08-06",
-    "method": "date"
+    "from": "2012-01-01",
+    "to": "2021-12-31",
+    "method": "betweenDates"
   },
   {
     "name": "numpy",
     "url": "https://github.com/numpy/numpy",
-    "since": "2001-12-18",
-    "method": "date"
+    "from": "2012-01-01",
+    "to": "2021-12-31",
+    "method": "betweenDates"
   },
   {
     "name": "openssl",
     "url": "https://github.com/openssl/openssl",
-    "since": "1998-12-21",
-    "method": "date"
+    "from": "2012-01-01",
+    "to": "2021-12-31",
+    "method": "betweenDates"
   },
   {
     "name": "openvpn",
     "url": "https://github.com/OpenVPN/openvpn",
-    "since": "2005-09-26",
-    "method": "date"
+    "from": "2012-01-01",
+    "to": "2021-12-31",
+    "method": "betweenDates"
   },
   {
     "name": "parrot",
     "url": "https://github.com/parrot/parrot",
-    "since": "2001-08-29",
-    "method": "date"
+    "from": "2012-01-01",
+    "to": "2021-12-31",
+    "method": "betweenDates"
   },
   {
     "name": "postgres",
     "url": "https://github.com/postgres/postgres",
-    "since": "1996-07-09",
-    "method": "date"
+    "from": "2012-01-01",
+    "to": "2021-12-31",
+    "method": "betweenDates"
   },
   {
     "name": "riot",
-    "url": "https://github.com/riot/riot",
-    "since": "2013-09-27",
-    "method": "date"
+    "url": "https://github.com/RIOT-OS/RIOT",
+    "from": "2012-01-01",
+    "to": "2021-12-31",
+    "method": "betweenDates"
   },
   {
     "name": "rspamd",
     "url": "https://github.com/rspamd/rspamd",
-    "since": "2008-05-08",
-    "method": "date"
+    "from": "2012-01-01",
+    "to": "2021-12-31",
+    "method": "betweenDates"
   },
   {
     "name": "rsyslog",
     "url": "https://github.com/rsyslog/rsyslog",
-    "since": "2004-11-08",
-    "method": "date"
+    "from": "2012-01-01",
+    "to": "2021-12-31",
+    "method": "betweenDates"
   },
   {
     "name": "torque",
     "url": "https://github.com/adaptivecomputing/torque",
-    "since": "2005-02-06",
-    "method": "date"
+    "from": "2012-01-01",
+    "to": "2021-12-31",
+    "method": "betweenDates"
   },
   {
     "name": "toxic",
     "url": "https://github.com/JFreegman/toxic",
-    "since": "2013-07-29",
-    "method": "date"
+    "from": "2012-01-01",
+    "to": "2021-12-31",
+    "method": "betweenDates"
   },
   {
     "name": "vim",
     "url": "https://github.com/vim/vim",
-    "since": "2004-06-13",
-    "method": "date"
+    "from": "2012-01-01",
+    "to": "2021-12-31",
+    "method": "betweenDates"
   }
 ]
