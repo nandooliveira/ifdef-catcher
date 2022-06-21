@@ -17,7 +17,9 @@ class Project(
                @JsonFormat(shape = JsonFormat.Shape.STRING, pattern = "yyyy-MM-dd") val since: Calendar = null,
                val startTag: String = null,
                val endTag: String = null,
-               val method: String = "commits"
+               val method: String = "commits",
+               @JsonFormat(shape = JsonFormat.Shape.STRING, pattern = "yyyy-MM-dd") val from: Calendar = null,
+               @JsonFormat(shape = JsonFormat.Shape.STRING, pattern = "yyyy-MM-dd") val to: Calendar = null
              )
 
 object ProjectFilter {
