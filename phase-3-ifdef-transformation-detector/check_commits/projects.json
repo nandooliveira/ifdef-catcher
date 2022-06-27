@@ -1,61 +1,5 @@
 [
   {
-    "name": "bfgminer",
-    "url": "https://github.com/luke-jr/bfgminer",
-    "from": "2012-01-01",
-    "to": "2021-12-31",
-    "method": "betweenDates"
-  },
-  {
-    "name": "busybox",
-    "url": "https://git.busybox.net/busybox",
-    "from": "2012-01-01",
-    "to": "2021-12-31",
-    "method": "betweenDates"
-  },
-  {
-    "name": "cgminer",
-    "url": "https://github.com/ckolivas/cgminer",
-    "from": "2012-01-01",
-    "to": "2021-12-31",
-    "method": "betweenDates"
-  },
-  {
-    "name": "contiki",
-    "url": "https://github.com/contiki-os/contiki",
-    "from": "2012-01-01",
-    "to": "2021-12-31",
-    "method": "betweenDates"
-  },
-  {
-    "name": "dia",
-    "url": "https://github.com/GNOME/dia",
-    "from": "2012-01-01",
-    "to": "2021-12-31",
-    "method": "betweenDates"
-  },
-  {
-    "name": "dynamorio",
-    "url": "https://github.com/DynamoRIO/dynamorio",
-    "from": "2012-01-01",
-    "to": "2021-12-31",
-    "method": "betweenDates"
-  },
-  {
-    "name": "etlegacy",
-    "url": "https://github.com/etlegacy/etlegacy",
-    "from": "2012-01-01",
-    "to": "2021-12-31",
-    "method": "betweenDates"
-  },
-  {
-    "name": "freebsd",
-    "url": "https://github.com/freebsd/freebsd-src",
-    "from": "2012-01-01",
-    "to": "2021-12-31",
-    "method": "betweenDates"
-  },
-  {
     "name": "fvwm",
     "url": "https://github.com/fvwmorg/fvwm",
     "from": "2012-01-01",
@@ -63,22 +7,8 @@
     "method": "betweenDates"
   },
   {
-    "name": "gawk",
-    "url": "https://git.savannah.gnu.org/git/gawk.git",
-    "from": "2012-01-01",
-    "to": "2021-12-31",
-    "method": "betweenDates"
-  },
-  {
     "name": "glfw",
     "url": "https://github.com/glfw/glfw",
-    "from": "2012-01-01",
-    "to": "2021-12-31",
-    "method": "betweenDates"
-  },
-  {
-    "name": "glibc",
-    "url": "https://sourceware.org/git/glibc.git",
     "from": "2012-01-01",
     "to": "2021-12-31",
     "method": "betweenDates"
@@ -114,20 +44,6 @@
   {
     "name": "libevent",
     "url": "https://github.com/libevent/libevent",
-    "from": "2012-01-01",
-    "to": "2021-12-31",
-    "method": "betweenDates"
-  },
-  {
-    "name": "libpng",
-    "url": "https://git.code.sf.net/p/libpng/code",
-    "from": "2012-01-01",
-    "to": "2021-12-31",
-    "method": "betweenDates"
-  },
-  {
-    "name": "libssh",
-    "url": "git://git.libssh.org/projects/libssh.git",
     "from": "2012-01-01",
     "to": "2021-12-31",
     "method": "betweenDates"
