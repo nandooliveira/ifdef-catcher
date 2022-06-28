@@ -1,0 +1,8 @@
+url,old_path,new_path,old_loc,new_loc,old_block,new_block,old_disciplined,new_disciplined,old_undisciplined,new_undisciplined,commit_hash,author
+https://github.com/GNOME/libxml2,encoding.c,encoding.c,2722,3091,57,76,49,65,8,11,18d0db25037978a6a274f55a2c058ad82331965a,Committer [name=Daniel Veillard; email=veillard@redhat.com]
+https://github.com/GNOME/libxml2,python/libxml.c,python/libxml.c,3093,3163,86,102,83,96,3,6,3798c4adbb91f80bef1e9f1b4b61dae72577a244,Committer [name=Daniel Veillard; email=veillard@redhat.com]
+https://github.com/GNOME/libxml2,python/types.c,python/types.c,747,787,44,50,43,48,1,2,3798c4adbb91f80bef1e9f1b4b61dae72577a244,Committer [name=Daniel Veillard; email=veillard@redhat.com]
+https://github.com/GNOME/libxml2,python/types.c,python/types.c,787,797,50,54,48,51,2,3,bf4a8f0ea8579f05eea2e6f43df73b2a239d41b3,Committer [name=Daniel Veillard; email=veillard@redhat.com]
+https://github.com/GNOME/libxml2,encoding.c,encoding.c,3106,2944,77,63,66,60,11,3,c9ccbd6a6dc7b8dbed3f401698290b9513cd9d98,Committer [name=Nick Wellnhofer; email=wellnhofer@aevum.de]
+https://github.com/GNOME/libxml2,threads.c,threads.c,691,695,96,96,95,94,1,2,f05af837bb21ec2244d42c1e6ffb8ea174292f03,Committer [name=J. Peter Mugaas; email=jpmugaas@suddenlink.net]
+https://github.com/GNOME/libxml2,xmlmodule.c,xmlmodule.c,228,230,9,9,9,8,0,1,13acadbb1ca1f42a65c6466dca025d4020be192a,Committer [name=Nick Wellnhofer; email=wellnhofer@aevum.de]
