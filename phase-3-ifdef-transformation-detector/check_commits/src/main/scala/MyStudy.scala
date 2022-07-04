@@ -92,8 +92,6 @@ class MyStudy extends Study {
     } else if (project.method.equals("commits") && project.startCommit != null && project.endCommit != null) {
       range = Commits.range(project.startCommit, project.endCommit)
     } else if (project.method.equals("betweenDates") && project.from != null && project.to != null) {
-      println("aqui....")
-      println("" + project.from + " " + project.to)
       range = Commits.betweenDates(project.from, project.to)
     } else if (project.method.equals("date") && project.since != null) {
       range = Commits.since(project.since)
