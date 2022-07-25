@@ -1,0 +1,1 @@
+ifdef-catcher-assembly-0.1.jar
