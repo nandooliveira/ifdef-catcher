@@ -1,2 +1,0 @@
-CPPSTATS/freebsd_srcbeb7ebb072d7f4e9c1c37417ad227c04f866c297456812942/project1
-CPPSTATS/freebsd_srcbeb7ebb072d7f4e9c1c37417ad227c04f866c297456812942/project2
