@@ -1,12 +1,5 @@
 [
   {
-    "name": "openssl",
-    "url": "https://github.com/openssl/openssl",
-    "from": "2012-01-01",
-    "to": "2021-12-31",
-    "method": "betweenDates"
-  },
-  {
     "name": "openvpn",
     "url": "https://github.com/OpenVPN/openvpn",
     "from": "2012-01-01",
