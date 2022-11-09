@@ -1,0 +1,10 @@
+url,old_path,new_path,old_loc,new_loc,old_block,new_block,old_disciplined,new_disciplined,old_undisciplined,new_undisciplined,commit_hash,author
+https://github.com/luke-jr/bfgminer,driver-opencl.c,driver-opencl.c,1416,1403,34,34,31,32,3,2,703f7ad1302b34fdff68032a4b2cae9b1d81d8a0,Committer [name=Luke Dashjr; email=luke-jr+git@utopios.org]
+https://github.com/luke-jr/bfgminer,util.c,util.c,2018,2052,42,45,39,40,3,5,5e8a11062b7fb9d3f04f2aca758de2ecfe98b04c,Committer [name=Luke Dashjr; email=luke-jr+git@utopios.org]
+https://github.com/luke-jr/bfgminer,util.c,util.c,1994,2018,40,42,38,39,2,3,0696bc10c58b07ffc535765ddbd45720ad603507,Committer [name=Luke Dashjr; email=luke-jr+git@utopios.org]
+https://github.com/luke-jr/bfgminer,miner.c,miner.c,8151,8172,187,192,171,173,16,19,af5724c5bff0f551f44512b7b4b38fdd339d32a3,Committer [name=Luke Dashjr; email=luke-jr+git@utopios.org]
+https://github.com/luke-jr/bfgminer,miner.c,miner.c,8209,8224,193,0,174,0,19,0,3d5fe28d0bf93f2ea79a0276e00a7dd477340fc1,Committer [name=Luke Dashjr; email=luke-jr+git@utopios.org]
+https://github.com/luke-jr/bfgminer,api.c,api.c,3557,3522,102,88,94,79,8,9,ff394e3a4d325ba5cf414c5dc820b3b880f24329,Committer [name=Luke Dashjr; email=luke-jr+git@utopios.org]
+https://github.com/luke-jr/bfgminer,fpgautils.c,fpgautils.c,1095,1111,32,40,25,34,7,6,ce4eba9042cdd3070a9770699987cd3d4005fc2f,Committer [name=Luke Dashjr; email=luke-jr+git@utopios.org]
+https://github.com/luke-jr/bfgminer,miner.c,miner.c,9322,9330,0,205,0,183,0,22,d8d84800097255107ff39a8cb2c955f4aa8e76e1,Committer [name=Luke Dashjr; email=luke-jr+git@utopios.org]
+https://github.com/luke-jr/bfgminer,miner.c,miner.c,9688,9747,210,216,188,192,22,24,a6d471fcce0fe2f7e3404cbce98eeefc7e9941bf,Committer [name=Luke Dashjr; email=luke-jr+git@utopios.org]
