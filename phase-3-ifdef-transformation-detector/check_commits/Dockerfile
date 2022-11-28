@@ -1,4 +1,5 @@
-FROM jcvf/cppstats:latest
+FROM benehdictus/cppstats_arm
+# FROM jcvf/cppstats:latest
 RUN apt-get update && apt-get install -y openjdk-11-jdk
 RUN mkdir /home/execution/
 WORKDIR /home/execution/
