@@ -1,0 +1,2 @@
+projectname;loc;compilationunit;functiontype;siblings;wrapperif;conditionalcase;conditionalelif;parameter;expression;undisciplinedknown;undisciplinedunknown;disciplined/overallblocks;overallblocks
+MoarVM-2022;97012;91;11;244;0;0;0;0;1;1;18;0.947945205479;365

@@ -1,63 +1,7 @@
 [
   {
-    "name": "openvpn",
-    "url": "https://github.com/OpenVPN/openvpn",
-    "from": "2012-01-01",
-    "to": "2021-12-31",
-    "method": "betweenDates"
-  },
-  {
-    "name": "parrot",
-    "url": "https://github.com/parrot/parrot",
-    "from": "2012-01-01",
-    "to": "2021-12-31",
-    "method": "betweenDates"
-  },
-  {
-    "name": "postgres",
-    "url": "https://github.com/postgres/postgres",
-    "from": "2012-01-01",
-    "to": "2021-12-31",
-    "method": "betweenDates"
-  },
-  {
-    "name": "riot",
-    "url": "https://github.com/RIOT-OS/RIOT",
-    "from": "2012-01-01",
-    "to": "2021-12-31",
-    "method": "betweenDates"
-  },
-  {
-    "name": "rspamd",
-    "url": "https://github.com/rspamd/rspamd",
-    "from": "2012-01-01",
-    "to": "2021-12-31",
-    "method": "betweenDates"
-  },
-  {
-    "name": "rsyslog",
-    "url": "https://github.com/rsyslog/rsyslog",
-    "from": "2012-01-01",
-    "to": "2021-12-31",
-    "method": "betweenDates"
-  },
-  {
-    "name": "torque",
-    "url": "https://github.com/adaptivecomputing/torque",
-    "from": "2012-01-01",
-    "to": "2021-12-31",
-    "method": "betweenDates"
-  },
-  {
-    "name": "toxic",
-    "url": "https://github.com/JFreegman/toxic",
-    "from": "2012-01-01",
-    "to": "2021-12-31",
-    "method": "betweenDates"
-  },
-  {
-    "name": "vim",
-    "url": "https://github.com/vim/vim",
+    "name": "libssh",
+    "url": "git://git.libssh.org/projects/libssh.git",
     "from": "2012-01-01",
     "to": "2021-12-31",
     "method": "betweenDates"

@@ -14,9 +14,10 @@ class MyVisitor extends CommitVisitor {
 
   /**
    * Visit each file on the list files, and write report
-   * @param files files to visit. This is a list of a tuple. For each file, the first parameter is the file on the
-   *              current commit; second parameter is the old path (on the parent commit)
-   * @param repo repository information
+   *
+   * @param files  files to visit. This is a list of a tuple. For each file, the first parameter is the file on the
+   *               current commit; second parameter is the old path (on the parent commit)
+   * @param repo   repository information
    * @param commit current commit
    * @param writer writer to report the results
    */
@@ -24,7 +25,7 @@ class MyVisitor extends CommitVisitor {
   private def visitFile(files: Iterable[(RepositoryFile, String)], repo: SCMRepository, commit: Commit,
                         writer: PersistenceMechanism): Unit = {
     if (files == Nil || files.isEmpty) return
-    val file =  files.head
+    val file = files.head
 
     val cppStatsHandler = new CppStatsHandler(repo.getOrigin.substring(repo.getOrigin.lastIndexOf("/") + 1), commit.getHash)
     if (cppStatsHandler.prepCppstatsDir()) {
@@ -72,7 +73,7 @@ class MyVisitor extends CommitVisitor {
     visitFile(files.tail, repo, commit, writer)
   }
 
-  private def getFilesToAnalyze(modifications:Iterable[Modification], files : Iterable[RepositoryFile], basePath : String)
+  private def getFilesToAnalyze(modifications: Iterable[Modification], files: Iterable[RepositoryFile], basePath: String)
   : List[(RepositoryFile, String)] = {
     if (modifications.isEmpty) return Nil
 
@@ -88,7 +89,7 @@ class MyVisitor extends CommitVisitor {
   }
 
   @tailrec
-  private def findFile(modification: Modification, files: Iterable[RepositoryFile], basePath : String)
+  private def findFile(modification: Modification, files: Iterable[RepositoryFile], basePath: String)
   : (RepositoryFile, String) = {
     if (files.isEmpty) return (null, null)
 
@@ -97,7 +98,7 @@ class MyVisitor extends CommitVisitor {
     else findFile(modification, files.tail, basePath)
   }
 
-  private def filterFiles(files:Iterable[RepositoryFile]):List[RepositoryFile] = {
+  private def filterFiles(files: Iterable[RepositoryFile]): List[RepositoryFile] = {
     if (files.isEmpty) return Nil
     val file = files.head
     if ((file.fileNameEndsWith(".c") || file.fileNameEndsWith(".h") ||
@@ -119,6 +120,9 @@ class MyVisitor extends CommitVisitor {
           commit,
           writer)
       }
+
+    } catch {
+      case e: Exception => println("ERROR: " + e.getMessage())
     } finally {
       synchronized {
         ProjectFilter.countCommits += 1
@@ -127,7 +131,7 @@ class MyVisitor extends CommitVisitor {
         try {
           out_writer.write(repo.getOrigin + " " + ProjectFilter.countCommits + "/" + ProjectFilter.totalCommits)
         } catch {
-          case _:Exception =>
+          case _: Exception =>
         } finally {
           out_writer.close()
         }

@@ -1,0 +1,65 @@
+[
+  {
+    "name": "bfgminer2013",
+    "url": "https://github.com/luke-jr/bfgminer",
+    "from": "2013-01-01",
+    "to": "2013-12-31",
+    "method": "betweenDates"
+  },
+  {
+    "name": "bfgminer2014",
+    "url": "https://github.com/luke-jr/bfgminer",
+    "from": "2014-01-01",
+    "to": "2014-12-31",
+    "method": "betweenDates"
+  },
+  {
+    "name": "bfgminer2015",
+    "url": "https://github.com/luke-jr/bfgminer",
+    "from": "2015-01-01",
+    "to": "2015-12-31",
+    "method": "betweenDates"
+  },
+  {
+    "name": "bfgminer2016",
+    "url": "https://github.com/luke-jr/bfgminer",
+    "from": "2016-01-01",
+    "to": "2016-12-31",
+    "method": "betweenDates"
+  },
+  {
+    "name": "bfgminer2017",
+    "url": "https://github.com/luke-jr/bfgminer",
+    "from": "2017-01-01",
+    "to": "2017-12-31",
+    "method": "betweenDates"
+  },
+  {
+    "name": "bfgminer2018",
+    "url": "https://github.com/luke-jr/bfgminer",
+    "from": "2018-01-01",
+    "to": "2018-12-31",
+    "method": "betweenDates"
+  },
+  {
+    "name": "bfgminer2019",
+    "url": "https://github.com/luke-jr/bfgminer",
+    "from": "2019-01-01",
+    "to": "2019-12-31",
+    "method": "betweenDates"
+  },
+  {
+    "name": "bfgminer2020",
+    "url": "https://github.com/luke-jr/bfgminer",
+    "from": "2020-01-01",
+    "to": "2020-12-31",
+    "method": "betweenDates"
+  },
+  {
+    "name": "bfgminer2021",
+    "url": "https://github.com/luke-jr/bfgminer",
+    "from": "2021-01-01",
+    "to": "2021-12-31",
+    "method": "betweenDates"
+  }
+]

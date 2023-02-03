@@ -13,7 +13,7 @@ import org.repodriller.scm.GitRemoteRepository
 import org.repodriller.{RepositoryMining, Study}
 
 import java.io.{File, FileWriter}
-import java.nio.file.Paths
+import java.text.SimpleDateFormat
 import java.util
 import scala.annotation.tailrec
 import scala.io.Source
@@ -29,7 +29,9 @@ class MyStudy extends Study {
 
   private def getProjects: List[Project] = {
     val mapper = JsonMapper.builder().addModule(DefaultScalaModule).build()
-    val content: Try[String] = Using(Source.fromFile("projects.json")) { _.mkString }
+    val content: Try[String] = Using(Source.fromFile("projects.json")) {
+      _.mkString
+    }
 
     if (content.isFailure) {
       println("Project list don't exists")
@@ -46,14 +48,14 @@ class MyStudy extends Study {
   }
 
   @tailrec
-  private def executeNextProject(projects:List[Project]): Unit = {
+  private def executeNextProject(projects: List[Project]): Unit = {
     if (projects.isEmpty) return
     ProjectFilter.buildFilter(projects.head.name)
     mineRepo(projects.head)
     executeNextProject(projects.tail)
   }
 
-  private def mineRepo(project:Project): Unit = {
+  private def mineRepo(project: Project): Unit = {
     delete_temp()
 
     val reportName = "output" + File.separator + project.name + "_report.csv"
@@ -61,18 +63,18 @@ class MyStudy extends Study {
     try {
       fileWriter.append(
         "url," +
-        "old_path,"+
-        "new_path,"+
-        "old_loc,"+
-        "new_loc,"+
-        "old_block,"+
-        "new_block,"+
-        "old_disciplined,"+
-        "new_disciplined,"+
-        "old_undisciplined,"+
-        "new_undisciplined,"+
-        "commit_hash,"+
-        "author\n"
+          "old_path," +
+          "new_path," +
+          "old_loc," +
+          "new_loc," +
+          "old_block," +
+          "new_block," +
+          "old_disciplined," +
+          "new_disciplined," +
+          "old_undisciplined," +
+          "new_undisciplined," +
+          "commit_hash," +
+          "author\n"
       )
     } catch {
       case _: Exception =>
@@ -86,7 +88,7 @@ class MyStudy extends Study {
       .inTempDir("temp")
       .buildAsSCMRepository()
 
-    var range : CommitRange = null
+    var range: CommitRange = null
     if (project.method.equals("tags") && project.startTag != null && project.endTag != null) {
       range = Commits.betweenTags(project.startTag, project.endTag)
     } else if (project.method.equals("commits") && project.startCommit != null && project.endCommit != null) {
@@ -99,10 +101,17 @@ class MyStudy extends Study {
       println("Error to get project " + project.name + " configuration. Exiting...")
       return
     }
+
     val commits = range.get(scmRepo.getScm)
 
     ProjectFilter.totalCommits = commits.size()
     ProjectFilter.countCommits = 0
+
+    val format = new SimpleDateFormat("yyyy.MM.dd")
+    val fromStr = format.format(project.from.getTime())
+    val toStr = format.format(project.to.getTime())
+
+    println("TOTAL COMMITS " + ProjectFilter.totalCommits + " in " + fromStr + " to " + toStr)
 
     var repositoryMining = new RepositoryMining()
     repositoryMining = repositoryMining.in(scmRepo)
@@ -114,14 +123,18 @@ class MyStudy extends Study {
         .withThreads(4)
     }
 
-    repositoryMining
-      .filters(
-        new OnlyNoMerge(),
-        new OnlyModificationsWithFileTypes(util.Arrays.asList(".c", ".C", ".h", ".H"))
-      )
-      .through(range)
-      .process(new MyVisitor(), new CSVFile(reportName, true))
-      .mine()
+    try {
+      repositoryMining
+        .filters(
+          new OnlyNoMerge(),
+          new OnlyModificationsWithFileTypes(util.Arrays.asList(".c", ".C", ".h", ".H"))
+        )
+        .through(range)
+        .process(new MyVisitor(), new CSVFile(reportName, true))
+        .mine()
+    } catch {
+      case e: Exception => println("Error: " + e.getMessage())
+    }
 
     delete_temp()
   }
@@ -133,9 +146,13 @@ class MyStudy extends Study {
     }
 
     val outputFile = new File("output")
-    if (!outputFile.exists()) { outputFile.mkdirs() }
+    if (!outputFile.exists()) {
+      outputFile.mkdirs()
+    }
     val cppStatsFile = new File("CPPSTATS")
-    if (!cppStatsFile.exists()) { cppStatsFile.mkdirs() }
+    if (!cppStatsFile.exists()) {
+      cppStatsFile.mkdirs()
+    }
 
     executeNextProject(getProjects)
   }

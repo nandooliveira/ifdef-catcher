@@ -20,7 +20,7 @@ All files of each project need to be added to "source" folder, inside of the pro
 
 ## Project list
 
-Project | Old version | Link old version | New version | Link new version 
+Project | Old version | Link old version | New version | Link new version
 --------|-------------|-------------|-----|-------
 [Apache](https://httpd.apache.org)| 2.2.11 | [github](https://github.com/apache/httpd/tree/2.2.11) | 2.4.46 | [github](https://github.com/apache/httpd/tree/2.4.46)
 [Cherokee](http://cherokee-project.com/) | 0.99.11 | [mirror](https://mirror.aarnet.edu.au/pub/cherokee/0.99/0.99.11/cherokee-0.99.11.tar.gz) or [drive link](https://drive.google.com/drive/folders/1vEBwLPyEwY1s-4BzErST9JRpLCEa84fM?usp=sharing) | 1.2.104 | [github](https://github.com/cherokee/webserver/tree/v1.2.104)
@@ -84,3 +84,76 @@ In addition to those above, the following projects have also been removed:
 - subversion: low number of pre processor blocks in version 0
 - xinelib: low number of pre processor blocks in both versions
 - irssi: low number of disciplined (absolute) changes from one version to another
+
+# Running
+
+## Configure de environtment
+
+
+### Create a docker container
+```bash
+docker run --name=cppstats -d -it -v /Users/fernandooliveira/workspaces/doutorado/:/home/ benehdictus/cppstats_arm zsh
+```
+
+### Start Container
+
+```
+docker start cppstats
+```
+
+### Access Container
+
+```
+docker exec -it cppstats bash
+```
+
+### Install Python dependencies
+
+1. Go to projects folder
+```
+cd /home/ifdef-catcher/phase-2-quantitative-analysis/
+```
+
+2. Install dependencies
+```bash
+# install python
+apt install python3-pip
+
+# install asdf
+apt install curl git
+apt-get install build-essential python-dev python-setuptools python-pip python-smbus
+apt-get install libncursesw5-dev libgdbm-dev libc6-dev
+apt-get install zlib1g-dev libsqlite3-dev tk-dev
+apt-get install libssl-dev openssl
+apt-get install libffi-dev
+git clone https://github.com/asdf-vm/asdf.git ~/.asdf --branch v0.10.2
+. $HOME/.asdf/asdf.sh
+. $HOME/.asdf/completions/asdf.bash
+
+# install pipenv and dependencies
+pip3 install pipenv
+pipenv shell
+pipenv install
+```
+
+## Setup the experiment
+
+Fill the "domain_map.json" file. This file contains all the projects' information.
+
+## Running the experiment
+
+First activate python environment:
+
+```
+pipenv shell
+```
+
+After populating the json, the following scripts must be executed in order:
+
+| Script | Description |
+|--|--|
+| `main.py` | generates content on folders `csv_files` and `output` |
+| `read_csv_files.py` | generates the `results.csv`, which is a summary of the various csv files on `csv_files` folder |
+| `compare_versions.py` | generates `compare.csv`, which compares the versions of each project on `results.csv` |
+
+

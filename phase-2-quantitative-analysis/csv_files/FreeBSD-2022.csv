@@ -1,0 +1,2 @@
+projectname;loc;compilationunit;functiontype;siblings;wrapperif;conditionalcase;conditionalelif;parameter;expression;undisciplinedknown;undisciplinedunknown;disciplined/overallblocks;overallblocks
+FreeBSD-2022;6431991;13605;4180;28328;0;0;0;80;149;229;4634;0.904602165725;50976

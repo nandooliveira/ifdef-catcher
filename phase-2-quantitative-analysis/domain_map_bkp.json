@@ -1,0 +1,264 @@
+{
+    "BfgMiner ": {
+        "domain": "",
+        "previous-url": "https://github.com/luke-jr/bfgminer/archive/07db1ed6874d96c08910275e6bc53ef745ab5933.zip",
+        "current-url": "https://github.com/luke-jr/bfgminer/archive/866fd36f3a77d181805b899d5d306bd87b01f704.zip",
+        "previous-version": "2013",
+        "current-version": "2022"
+    },
+    "Busybox": {
+        "domain": "",
+        "previous-url": "https://drive.google.com/uc?id=1jRj-TTTRMeP0GrSjMwXsyqRpDFSZbshi",
+        "current-url": "https://drive.google.com/uc?id=1x5AfPUgDF8Kf94AYuf569gLGLkPlCvzj",
+        "google-drive-filename-v0": "busybox-1_21_0.zip",
+        "google-drive-filename-v1": "busybox-1.35.0.zip",
+        "previous-version": "1.21.0",
+        "current-version": "1.35.0"
+    },
+    "Cgminer": {
+        "domain": "",
+        "previous-url": "https://github.com/ckolivas/cgminer/archive/07db1ed6874d96c08910275e6bc53ef745ab5933.zip",
+        "current-url": "https://github.com/ckolivas/cgminer/archive/b8491c66e7e22f23a9edf095dd1337ee581e88bd.zip",
+        "previous-version": "2013",
+        "current-version": "2022"
+    },
+    "Contiki": {
+        "domain": "",
+        "previous-url": "https://github.com/contiki-os/contiki/archive/64ded5aecc960fcc0d233e1d244264e54c2cbc6d.zip",
+        "current-url": "https://github.com/contiki-os/contiki/archive/32b5b17f674232867c22916bb2e2534c8e9a92ff.zip",
+        "previous-version": "2013",
+        "current-version": "2022"
+    },
+    "Dia": {
+        "domain": "",
+        "previous-url": "https://github.com/GNOME/dia/archive/29b0f172415d7c85117c7979582b37809b2840bb.zip",
+        "current-url": "https://github.com/GNOME/dia/archive/4a619ec7cc93be5ddfbcc48d9e1572d04943bcad.zip",
+        "previous-version": "2013",
+        "current-version": "2022"
+    },
+    "DynamRIO": {
+        "domain": "",
+        "previous-url": "https://github.com/DynamoRIO/dynamorio/archive/83aec6ad3a90512299530aa80daea7f70fce7bea.zip",
+        "current-url": "https://github.com/DynamoRIO/dynamorio/archive/b114a32e65ece7a6cbf8d9eee9ae779b3c78e567.zip",
+        "previous-version": "2013",
+        "current-version": "2022"
+    },
+    "Etlegacy": {
+        "domain": "",
+        "previous-url": "https://github.com/etlegacy/etlegacy/archive/ab400504508845592c614315ed8dc536bccdcaf2.zip",
+        "current-url": "https://github.com/etlegacy/etlegacy/archive/f2745fae2264529662113e1ac739ccbbab3883ba.zip",
+        "previous-version": "2013",
+        "current-version": "2022"
+    },
+    "FreeBSD": {
+        "domain": "",
+        "previous-url": "https://github.com/freebsd/freebsd-src/archive/5c9e101707be5f793cf0b13125569af2354b3884.zip",
+        "current-url": "https://github.com/freebsd/freebsd-src/archive/231d75568f169fe6adc30373c12512b992c5c672.zip",
+        "previous-version": "2013",
+        "current-version": "2022"
+    },
+    "Fvwm": {
+        "domain": "",
+        "previous-url": "https://github.com/fvwmorg/fvwm/archive/dfd0f052f52130c3235ddfde7afcd0e081f47cdb.zip",
+        "current-url": "https://github.com/fvwmorg/fvwm/archive/02f28e29610d482360f4ec466a4527ccd3c3feae.zip",
+        "previous-version": "2.6.4",
+        "current-version": "2.6.9"
+    },
+    "Gawk": {
+        "domain": "",
+        "previous-url": "https://drive.google.com/uc?id=1_qpJSHh837a2n5eadBGCDv8iJoL_hPRW",
+        "current-url": "https://drive.google.com/uc?id=1nBRke3LQB9UWAqI1H6vEOvcVWIgcIIWW",
+        "google-drive-filename-v0": "gawk-2013.zip",
+        "google-drive-filename-v1": "gawk-2022.zip",
+        "previous-version": "2013",
+        "current-version": "2022"
+    },
+    "Glfw": {
+        "domain": "",
+        "previous-url": "https://github.com/glfw/glfw/archive/4305c7604978188a18bff75e5ece9067a0c33bf2.zip",
+        "current-url": "https://github.com/glfw/glfw/archive/57cbded0760a50b9039ee0cb3f3c14f60145567c.zip",
+        "previous-version": "2013",
+        "current-version": "2022"
+    },
+    "GLibc": {
+        "domain": "",
+        "previous-url": "https://drive.google.com/uc?id=1pqCttGaPmMMrVwzRQHO1utXUW9rfSlZ0",
+        "current-url": "https://drive.google.com/uc?id=1RPT8PxaG2B3GI1VpbpvugrBAVAe5TMPK",
+        "google-drive-filename-v0": "glibc-2013.zip",
+        "google-drive-filename-v1": "glibc-2022.zip",
+        "previous-version": "2013",
+        "current-version": "2022"
+    },
+    "GNUPlot": {
+        "domain": "",
+        "previous-url": "https://github.com/gnuplot/gnuplot/archive/b4de2e06e4878be77164eed247c690c8e1aecb56.zip",
+        "current-url": "https://github.com/gnuplot/gnuplot/archive/b655ca2ad73c034a09a52d9868182383e80a4d4b.zip",
+        "previous-version": "2013",
+        "current-version": "2022"
+    },
+    "H2O": {
+        "domain": "",
+        "previous-url": "https://github.com/h2o/h2o/archive/73c5ec99cb186c0d2328c0d65599bd3ba948c3a6.zip",
+        "current-url": "https://github.com/h2o/h2o/archive/0f08b675c8244fc4552a93e9b35271ecf5e0f8fa.zip",
+        "previous-version": "2013",
+        "current-version": "2022"
+    },
+    "Ioq3": {
+        "domain": "",
+        "previous-url": "https://github.com/ioquake/ioq3/archive/543812ae84896041050ca5a9792753d093ab3458.zip",
+        "current-url": "https://github.com/ioquake/ioq3/archive/70d07d91d62dcdd2f2268d1ac401bfb697b4c991.zip",
+        "previous-version": "2013",
+        "current-version": "2022"
+    },
+    "Irssi": {
+        "domain": "",
+        "previous-url": "https://github.com/irssi/irssi/archive/d826896f74925f2e77536d69a3d1a4b86b0cec61.zip",
+        "current-url": "https://github.com/irssi/irssi/archive/162dc256be8f47de2491c0587e28ab21805f348a.zip",
+        "previous-version": "2013",
+        "current-version": "2022"
+    },
+    "Libevent": {
+        "domain": "",
+        "previous-url": "https://github.com/libevent/libevent/archive/bf7a0ff26808199ec68b86bb78c65fc21ba770f9.zip",
+        "current-url": "https://github.com/libevent/libevent/archive/1fe626c4da14fef6cf45b95e48a438e0f93a499e.zip",
+        "previous-version": "2013",
+        "current-version": "2022"
+    },
+    "LibPNG": {
+        "domain": "",
+        "previous-url": "https://drive.google.com/uc?id=1xDOyXip258yZ7hthOjvCl2yJVcS7gLa3",
+        "current-url": "https://drive.google.com/uc?id=158hKnmE14gTuwZ9190XdewxG286vsvPN",
+        "google-drive-filename-v0": "libpng-2013.zip",
+        "google-drive-filename-v1": "libpng-2022.zip",
+        "previous-version": "2013",
+        "current-version": "2022"
+    },
+    "LibSSH": {
+        "domain": "",
+        "previous-url": "https://drive.google.com/uc?id=1kniTaLfLlKijnisEHbo2KmsOLYttAbJ6&confirm=libssh-2013.zip",
+        "current-url": "https://drive.google.com/uc?id=1q77cRPQsXMS-tJeNNPMV51UpesAMXiUI&confirm=libssh-2022.zip",
+        "google-drive-filename-v0": "libssh-2013.zip",
+        "google-drive-filename-v1": "libssh-2022.zip",
+        "previous-version": "2013",
+        "current-version": "2022"
+    },
+    "Libxml2": {
+        "domain": "",
+        "previous-url": "https://github.com/GNOME/libxml2/archive/9c8eaabe83b9973ec97acecb5e499335397c523c.zip",
+        "current-url": "https://github.com/GNOME/libxml2/archive/59b33661784359c6d3a8309ddbd2129fb2688548.zip",
+        "previous-version": "2013",
+        "current-version": "2022"
+    },
+    "MoarVM": {
+        "domain": "",
+        "previous-url": "https://github.com/MoarVM/MoarVM/archive/acc8faa956e969f4ccc76525d5bd59f3a1a53e26.zip",
+        "current-url": "https://github.com/MoarVM/MoarVM/archive/a1e2a57a5a5deea94f02b1f21c0cacd5e73fde54.zip",
+        "previous-version": "2013",
+        "current-version": "2022"
+    },
+    "MPV-Player": {
+        "domain": "",
+        "previous-url": "https://github.com/mpv-player/mpv/archive/f394a25e7be6c6d7560b639ea253d747a376c6f6.zip",
+        "current-url": "https://github.com/mpv-player/mpv/archive/ad65c8855b60df3c95026ee7b315eca31c59f3bc.zip",
+        "previous-version": "2013",
+        "current-version": "2022"
+    },
+    "Msysgit": {
+        "domain": "",
+        "previous-url": "https://github.com/msysgit/git/archive/d809fb17b00f912112090294ff0257c8a87af56e.zip",
+        "current-url": "https://github.com/msysgit/git/archive/84338147b1ba3b4f81b508c85862f863b584da1c.zip",
+        "previous-version": "2013",
+        "current-version": "2022"
+    },
+    "Mupen64": {
+        "domain": "",
+        "previous-url": "https://github.com/mupen64plus/mupen64plus-core/archive/119f3e284582b71d97221fe2c92abfdafb7aaa2e.zip",
+        "current-url": "https://github.com/mupen64plus/mupen64plus-core/archive/abbd8768cdf898bc4c4d151177bdc9bbb3a42e45.zip",
+        "previous-version": "2013",
+        "current-version": "2022"
+    },
+    "NGinx": {
+        "domain": "",
+        "previous-url": "https://github.com/nginx/nginx/archive/ff2e3042236e3bf522090d5b07f5f895a4cef921.zip",
+        "current-url": "https://github.com/nginx/nginx/archive/9c7a2c7ce4ad02a36df1bb0ee5e40a84610fffb9.zip",
+        "previous-version": "2013",
+        "current-version": "2022"
+    },
+    "Numpy": {
+        "domain": "",
+        "previous-url": "https://github.com/numpy/numpy/archive/9ff6aed1f261706df4e50dc482f004500a98548a.zip",
+        "current-url": "https://github.com/numpy/numpy/archive/1d10a35a1e181438e39413d9ac792a97b42b58ae.zip",
+        "previous-version": "2013",
+        "current-version": "2022"
+    },
+    "OpenSSL": {
+        "domain": "",
+        "previous-url": "https://github.com/openssl/openssl/archive/e71972d1777349e5e098f9cd619b4b5f1b011670.zip",
+        "current-url": "https://github.com/openssl/openssl/archive/43a9e682d80d0abe4ffd0c76d18c43cf059a2bcc.zip",
+        "previous-version": "2013",
+        "current-version": "2022"
+    },
+    "OpenVPN": {
+        "domain": "",
+        "previous-url": "https://github.com/OpenVPN/openvpn/archive/09ee4192b1d16bbd7c3c138cc2d46760a11797bf.zip",
+        "current-url": "https://github.com/OpenVPN/openvpn/archive/a10564c71608dca6172a89dc458e6e23254d600b.zip",
+        "previous-version": "2013",
+        "current-version": "2022"
+    },
+    "Parrot": {
+        "domain": "",
+        "previous-url": "https://github.com/parrot/parrot/archive/bfc06178554b8d75031e72edcfcf0042fef39607.zip",
+        "current-url": "https://github.com/parrot/parrot/archive/f89a111c06ad0367817c52fda6ff5c24165c005b.zip",
+        "previous-version": "2013",
+        "current-version": "2022"
+    },
+    "Postgres": {
+        "domain": "",
+        "previous-url": "https://github.com/postgres/postgres/archive/f1abee6bc6bc2f382412d1188c88d96c138591f4.zip",
+        "current-url": "https://github.com/postgres/postgres/archive/8ad51b5f446b5c19ba2c0033a0f7b3180b3b6d95.zip",
+        "previous-version": "2013",
+        "current-version": "2022"
+    },
+    "Riot": {
+        "domain": "",
+        "previous-url": "https://github.com/RIOT-OS/RIOT/archive/6d9416e32732b3f7f55f14b43e8f8ef217704cdb.zip",
+        "current-url": "https://github.com/RIOT-OS/RIOT/archive/8381cd3633d24409ea9c3010e64168c09deda737.zip",
+        "previous-version": "2013",
+        "current-version": "2022"
+    },
+    "Rspamd": {
+        "domain": "",
+        "previous-url": "https://github.com/rspamd/rspamd/archive/393a7c39ecc9224faa7c11afc32c8e74f54ea3c5.zip",
+        "current-url": "https://github.com/rspamd/rspamd/archive/f227be52b2087e105491fb6b9337df084f84417f.zip",
+        "previous-version": "2013",
+        "current-version": "2022"
+    },
+    "Rsyslog": {
+        "domain": "",
+        "previous-url": "https://github.com/rsyslog/rsyslog/archive/5cd9b52ea5a75c4dff3d92683ff51d4e02cb1fd5.zip",
+        "current-url": "https://github.com/rsyslog/rsyslog/archive/e6f1866f5556e97d9de5ed177cc95357180077bf.zip",
+        "previous-version": "2013",
+        "current-version": "2022"
+    },
+    "Torque": {
+        "domain": "",
+        "previous-url": "https://github.com/adaptivecomputing/torque/archive/42785133f977b7cf99ef4f99b62e0ee414d6a46d.zip",
+        "current-url": "https://github.com/adaptivecomputing/torque/archive/34ff845417cc0348dfe0a61a491e5e0f4adf6ef4.zip",
+        "previous-version": "2013",
+        "current-version": "2022"
+    },
+    "Toxic": {
+        "domain": "",
+        "previous-url": "https://github.com/JFreegman/toxic/archive/1974fa23d21bedb672f1c0d77dfa85f73037f5c1.zip",
+        "current-url": "https://github.com/JFreegman/toxic/archive/fbdc20dfa5c4d57519fdf1199e5cc82786c0fc4a.zip",
+        "previous-version": "2013",
+        "current-version": "2022"
+    },
+    "Vim": {
+        "domain": "",
+        "previous-url": "https://github.com/vim/vim/archive/8754deb3b622186ff5efa0e5547a392aaed6a1c7.zip",
+        "current-url": "https://github.com/vim/vim/archive/9f2d97efe28d32d6e4960e41e80413713f8d1d18.zip",
+        "previous-version": "2013",
+        "current-version": "2022"
+    }
+}
