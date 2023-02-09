@@ -91,8 +91,15 @@ In addition to those above, the following projects have also been removed:
 
 
 ### Create a docker container
+
+On ARM processor
 ```bash
 docker run --name=cppstats -d -it -v /Users/fernandooliveira/workspaces/doutorado/:/home/ benehdictus/cppstats_arm zsh
+```
+
+On x86 CPUs
+```
+docker run --name=cppstats -d -it -v /Users/fernandooliveira/workspaces/doutorado/:/home/ # FROM jcvf/cppstats:latest zsh
 ```
 
 ### Start Container
