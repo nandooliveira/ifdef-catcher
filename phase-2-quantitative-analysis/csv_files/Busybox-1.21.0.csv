@@ -1,2 +1,2 @@
 projectname;loc;compilationunit;functiontype;siblings;wrapperif;conditionalcase;conditionalelif;parameter;expression;undisciplinedknown;undisciplinedunknown;disciplined/overallblocks;overallblocks
-Busybox-1.21.0;31063;62;4;206;0;0;0;0;0;0;22;0.925170068027;294
+Busybox-1.21.0;182915;846;451;1978;2;0;0;9;21;32;216;0.929605449901;3523

@@ -1,2 +1,2 @@
 projectname;loc;compilationunit;functiontype;siblings;wrapperif;conditionalcase;conditionalelif;parameter;expression;undisciplinedknown;undisciplinedunknown;disciplined/overallblocks;overallblocks
-Numpy-2013;70304;86;10;143;0;0;0;16;0;16;68;0.739938080495;323
+Numpy-2013;123980;240;94;377;0;0;0;16;8;24;119;0.832552693208;854

@@ -1,2 +1,2 @@
 projectname;loc;compilationunit;functiontype;siblings;wrapperif;conditionalcase;conditionalelif;parameter;expression;undisciplinedknown;undisciplinedunknown;disciplined/overallblocks;overallblocks
-Rspamd-2022;207122;517;90;1290;0;0;0;0;1;1;391;0.82874617737;2289
+Rspamd-2022;237641;526;90;1345;0;0;0;0;1;1;401;0.829877274651;2363

@@ -1,10 +1,8 @@
 {
-    "LibPNG": {
+    "Vim": {
         "domain": "",
-        "previous-url": "https://drive.google.com/uc?id=1xDOyXip258yZ7hthOjvCl2yJVcS7gLa3",
-        "current-url": "https://drive.google.com/uc?id=158hKnmE14gTuwZ9190XdewxG286vsvPN",
-        "google-drive-filename-v0": "libpng-2013.zip",
-        "google-drive-filename-v1": "libpng-2022.zip",
+        "previous-url": "https://github.com/vim/vim/archive/8754deb3b622186ff5efa0e5547a392aaed6a1c7.zip",
+        "current-url": "https://github.com/vim/vim/archive/9f2d97efe28d32d6e4960e41e80413713f8d1d18.zip",
         "previous-version": "2013",
         "current-version": "2022"
     }

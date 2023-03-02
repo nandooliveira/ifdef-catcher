@@ -1,2 +1,2 @@
 projectname;loc;compilationunit;functiontype;siblings;wrapperif;conditionalcase;conditionalelif;parameter;expression;undisciplinedknown;undisciplinedunknown;disciplined/overallblocks;overallblocks
-OpenSSL-2013;130827;719;172;1479;0;0;0;1;54;55;366;0.849158007882;2791
+OpenSSL-2013;292496;1373;240;3385;1;0;0;1;69;71;545;0.890274314214;5614

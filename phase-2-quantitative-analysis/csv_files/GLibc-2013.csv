@@ -1,2 +1,2 @@
 projectname;loc;compilationunit;functiontype;siblings;wrapperif;conditionalcase;conditionalelif;parameter;expression;undisciplinedknown;undisciplinedunknown;disciplined/overallblocks;overallblocks
-GLibc-2013;147591;1656;528;779;2;0;0;1;9;12;235;0.923052959502;3210
+GLibc-2013;796750;4438;1350;3407;9;0;0;15;60;84;756;0.916292974589;10035

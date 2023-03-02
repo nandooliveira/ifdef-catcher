@@ -1,2 +1,2 @@
 projectname;loc;compilationunit;functiontype;siblings;wrapperif;conditionalcase;conditionalelif;parameter;expression;undisciplinedknown;undisciplinedunknown;disciplined/overallblocks;overallblocks
-MoarVM-2013;60559;415;65;1743;0;0;0;2;1;3;153;0.934426229508;2379
+MoarVM-2013;106078;416;65;1749;0;0;0;2;1;3;153;0.93461860855;2386

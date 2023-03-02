@@ -157,10 +157,10 @@ pipenv shell
 
 After populating the json, the following scripts must be executed in order:
 
-| Script | Description |
-|--|--|
-| `main.py` | generates content on folders `csv_files` and `output` |
-| `read_csv_files.py` | generates the `results.csv`, which is a summary of the various csv files on `csv_files` folder |
-| `compare_versions.py` | generates `compare.csv`, which compares the versions of each project on `results.csv` |
+| Script                | Description                                                                                    |
+|-----------------------|------------------------------------------------------------------------------------------------|
+| `main.py`             | generates content on folders `csv_files` and `output`                                          |
+| `read_csv_files.py`   | generates the `results.csv`, which is a summary of the various csv files on `csv_files` folder |
+| `compare_versions.py` | generates `compare.csv`, which compares the versions of each project on `results.csv`          |
 
 

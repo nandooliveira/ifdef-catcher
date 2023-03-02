@@ -1,2 +1,2 @@
 projectname;loc;compilationunit;functiontype;siblings;wrapperif;conditionalcase;conditionalelif;parameter;expression;undisciplinedknown;undisciplinedunknown;disciplined/overallblocks;overallblocks
-Rsyslog-2013;7240;0;0;15;0;0;0;0;1;1;2;0.833333333333;18
+Rsyslog-2013;57316;71;10;157;0;0;0;4;7;11;26;0.865454545455;275

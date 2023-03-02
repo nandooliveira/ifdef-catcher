@@ -1,2 +1,2 @@
 projectname;loc;compilationunit;functiontype;siblings;wrapperif;conditionalcase;conditionalelif;parameter;expression;undisciplinedknown;undisciplinedunknown;disciplined/overallblocks;overallblocks
-Gawk-2022;17709;95;5;135;0;0;0;0;1;1;14;0.94;250
+Gawk-2022;53897;391;32;472;0;0;0;0;4;4;66;0.927461139896;965

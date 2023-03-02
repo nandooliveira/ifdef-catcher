@@ -1,128 +1,45 @@
 project,total files version 0,total files version 1,total removed
-Vim,537,856,0
-Toxic,29,249,17
-Torque,11078,11327,0
-Rsyslog,787,1115,0
-Rspamd,666,2178,0
-Postgres,7200,11504,0
-Parrot,1009,1104,0
-OpenVPN,445,1042,0
-OpenSSL,4123,6897,0
-Numpy,821,2034,0
-NGinx,1294,1549,0
-Mupen64,706,1043,0
-Msysgit,4967,4963,0
-MPV-Player,1301,1868,0
-MoarVM,1699,1736,0
-Libxml2,482,574,0
-LibSSH,427,900,0
-LibPNG,50,291,37
-Libevent,343,418,0
-Irssi,1432,1609,0
-Ioq3,2658,4986,0
-H2O,97,3569,0
-GNUPlot,642,682,0
-GLibc,33678,54824,0
-Glfw,126,307,44
-Gawk,237,412,0
+Cgminer,347,646,0
+Busybox,2813,2427,0
+BfgMiner ,347,321,0
+project,total files version 0,total files version 1,total removed
+FreeBSD,144892,213264,0
+Etlegacy,1141,1605,0
+DynamRIO,2221,4678,0
+Dia,1970,2129,0
+Contiki,10071,13726,0
+project,total files version 0,total files version 1,total removed
+GNUPlot,635,715,0
+project,total files version 0,total files version 1,total removed
+GLibc,44748,58768,0
+Glfw,225,315,0
+Gawk,240,427,0
 Fvwm,1335,1062,0
-FreeBSD,135094,218011,0
-Etlegacy,1085,1568,0
-DynamRIO,2030,4341,0
-Dia,1996,2129,0
-Contiki,9794,10788,0
-Cgminer,307,559,0
-BfgMiner ,307,321,0
 project,total files version 0,total files version 1,total removed
-Riot,1274,42466,0
-Busybox,2773,2427,0
-project,total files version 0,total files version 1,total removed
-Toxic,6,261,0
-Torque,7635,9629,419
-Rsyslog,316,1127,168
-Rspamd,612,2175,41
-Riot,1575,44661,15
-Postgres,2378,11941,1327
-Parrot,266,1104,163
-OpenVPN,244,1129,136
-OpenSSL,2714,7645,573
-Numpy,490,2277,90
-NGinx,356,1553,216
-Mupen64,452,1077,56
-project,total files version 0,total files version 1,total removed
-Toxic,6,261,0
-project,total files version 0,total files version 1,total removed
-Toxic,6,261,0
-Torque,7635,9629,419
-Rsyslog,316,1127,168
-Rspamd,612,2175,41
-Riot,1575,44661,15
-Postgres,2378,11941,1327
-Parrot,266,1104,163
-OpenVPN,244,1129,136
-OpenSSL,2714,7645,573
-Numpy,490,2277,90
-NGinx,356,1553,216
-Mupen64,452,1077,56
-project,total files version 0,total files version 1,total removed
-Cgminer,180,646,26
-Busybox,1353,2427,486
-BfgMiner ,287,321,38
-project,total files version 0,total files version 1,total removed
-Etlegacy,387,1605,237
-DynamRIO,792,4678,280
-Dia,701,2129,420
-Contiki,4471,13726,581
-project,total files version 0,total files version 1,total removed
-FreeBSD,86263,213264,9484
-project,total files version 0,total files version 1,total removed
-Glfw,153,315,36
-Gawk,128,427,49
-Fvwm,600,1062,97
-project,total files version 0,total files version 1,total removed
-GLibc,0,0,0
-project,total files version 0,total files version 1,total removed
-GLibc,27736,58768,3820
-project,total files version 0,total files version 1,total removed
-Libevent,136,469,106
-Irssi,337,1634,269
-Ioq3,1435,4986,190
-H2O,87,4277,7
-GNUPlot,223,715,153
-project,total files version 0,total files version 1,total removed
-LibSSH,175,986,109
-LibPNG,59,291,50
-project,total files version 0,total files version 1,total removed
-Mupen64,452,1077,56
-project,total files version 0,total files version 1,total removed
-Libxml2,494,581,0
-project,total files version 0,total files version 1,total removed
-MPV-Player,1096,1967,101
-MoarVM,2678,1728,94
+LibPNG,192,291,0
+Libevent,363,469,0
+Irssi,1432,1634,0
+Ioq3,2826,4986,0
+H2O,107,4277,0
 project,total files version 0,total files version 1,total removed
 Msysgit,0,1248,0
+MPV-Player,1340,1967,0
+MoarVM,2993,1728,0
+Libxml2,494,581,0
+LibSSH,466,986,0
 project,total files version 0,total files version 1,total removed
-NGinx,356,1553,216
-project,total files version 0,total files version 1,total removed
-OpenSSL,2714,7645,573
-Numpy,490,2277,90
-project,total files version 0,total files version 1,total removed
-Parrot,266,1104,163
-OpenVPN,244,1129,136
-project,total files version 0,total files version 1,total removed
-Postgres,2378,11941,1327
+Parrot,1091,1104,0
+OpenVPN,753,1129,0
+OpenSSL,4366,7645,0
+Numpy,970,2277,0
+NGinx,1318,1553,0
+Mupen64,639,1077,0
 project,total files version 0,total files version 1,total removed
 Toxic,6,261,0
-Torque,7635,9629,419
-Rsyslog,316,1127,168
-Rspamd,612,2175,41
+Torque,10925,9629,0
+Rsyslog,758,1127,0
+Rspamd,729,2175,0
+Riot,1616,44661,0
+Postgres,8581,11941,0
 project,total files version 0,total files version 1,total removed
-Riot,1575,44661,15
-project,total files version 0,total files version 1,total removed
-Vim,264,825,116
-project,total files version 0,total files version 1,total removed
-Libevent,136,469,106
-project,total files version 0,total files version 1,total removed
-Libevent,136,469,106
-project,total files version 0,total files version 1,total removed
-LibPNG,59,291,50
+Vim,547,825,0

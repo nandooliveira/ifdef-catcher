@@ -1,2 +1,2 @@
 projectname;loc;compilationunit;functiontype;siblings;wrapperif;conditionalcase;conditionalelif;parameter;expression;undisciplinedknown;undisciplinedunknown;disciplined/overallblocks;overallblocks
-LibSSH-2022;37325;78;26;238;0;0;0;1;0;1;53;0.863636363636;396
+LibSSH-2022;85344;212;95;692;0;0;0;3;1;4;122;0.888;1125

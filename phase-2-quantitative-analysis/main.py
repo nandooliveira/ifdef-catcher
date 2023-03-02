@@ -95,33 +95,34 @@ def run_filter():
 
         total_files_v0 += 1
 
-        inter_0 = [f for f in os.listdir(VERSION_0_CPPSTATS_DIR)][0]
-        inter_1 = [f for f in os.listdir(VERSION_1_CPPSTATS_DIR)][0]
-
-        filename_1 = filename_0.replace(VERSION_0_FOLDER, VERSION_1_FOLDER, 1)
-        filename_1 = filename_1.replace(inter_0, inter_1, 1)
-
-        if not os.path.isfile(filename_1):
-            continue
-
-        with open(filename_0, 'r') as f0:
-            with open(filename_1, 'r') as f1:
-                print(filename_0)
-                try:
-                    content_0 = re.sub(r"[\n\t\s]*", "",f0.read())
-                    content_1 = re.sub(r"[\n\t\s]*", "",f1.read())
-                    if content_0 == content_1:
-                        remove_files(filename_0)
-                        remove_files(filename_1)
-                    else:
-                        blocks_0 = get_blocks(filename_0 + '.xml')
-                        blocks_1 = get_blocks(filename_1 + '.xml')
-                        if blocks_0 == blocks_1:
-                            remove_files(filename_0)
-                            remove_files(filename_1)
-                            total_deleted += 1
-                except:
-                    print('error')
+        # inter_0 = [f for f in os.listdir(VERSION_0_CPPSTATS_DIR)][0]
+        # inter_1 = [f for f in os.listdir(VERSION_1_CPPSTATS_DIR)][0]
+        #
+        # filename_1 = filename_0.replace(VERSION_0_FOLDER, VERSION_1_FOLDER, 1)
+        # filename_1 = filename_1.replace(inter_0, inter_1, 1)
+        #
+        # if not os.path.isfile(filename_1):
+        #     continue
+        #
+        # with open(filename_0, 'r') as f0:
+        #     with open(filename_1, 'r') as f1:
+        #         try:
+        #             content_0 = re.sub(r"[\n\t\s]*", "",f0.read())
+        #             content_1 = re.sub(r"[\n\t\s]*", "",f1.read())
+        #
+        #             if content_0 == content_1:
+        #                 remove_files(filename_0)
+        #                 remove_files(filename_1)
+        #             else:
+        #                 blocks_0 = get_blocks(filename_0 + '.xml')
+        #                 blocks_1 = get_blocks(filename_1 + '.xml')
+        #
+        #                 if blocks_0 == blocks_1:
+        #                     remove_files(filename_0)
+        #                     remove_files(filename_1)
+        #                     total_deleted += 1
+        #         except:
+        #             print('error')
 
     return total_files_v0, total_files_v1, total_deleted
 
@@ -129,7 +130,7 @@ def get_blocks(xml_path):
     doc = minidom.parse(xml_path)
     first_node = doc.firstChild
     blocks = ""
-    visitor(blocks, first_node)
+    blocks = visitor(blocks, first_node)
 
     return re.sub(r"[\n\t\s]*", "", blocks)
 
@@ -139,6 +140,7 @@ def visitor(blocks, node):
             if is_target(child):
                 blocks += get_block(child)
             visitor(blocks, child)
+    return blocks
 
 def get_text(node):
     text = node.nodeValue if node.nodeValue != None else ''

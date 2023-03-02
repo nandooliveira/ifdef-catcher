@@ -1,2 +1,2 @@
 projectname;loc;compilationunit;functiontype;siblings;wrapperif;conditionalcase;conditionalelif;parameter;expression;undisciplinedknown;undisciplinedunknown;disciplined/overallblocks;overallblocks
-OpenSSL-2022;323485;1126;373;1952;0;0;0;0;29;29;341;0.903166710285;3821
+OpenSSL-2022;513200;1803;555;3481;0;0;0;4;61;65;509;0.910494308436;6413
