@@ -1,9 +1,37 @@
 [
   {
-    "name": "libssh",
-    "url": "git://git.libssh.org/projects/libssh.git",
-    "from": "2012-01-01",
-    "to": "2021-12-31",
+    "name": "glibc",
+    "url": "https://sourceware.org/git/glibc.git",
+    "from": "2013-01-01",
+    "to": "2022-12-31",
+    "method": "betweenDates"
+  },
+  {
+    "name": "gnuplot",
+    "url": "https://github.com/gnuplot/gnuplot",
+    "from": "2013-01-01",
+    "to": "2022-12-31",
+    "method": "betweenDates"
+  },
+  {
+    "name": "h2o",
+    "url": "https://github.com/h2o/h2o",
+    "from": "2013-01-01",
+    "to": "2022-12-31",
+    "method": "betweenDates"
+  },
+  {
+    "name": "ioq3",
+    "url": "https://github.com/ioquake/ioq3",
+    "from": "2013-01-01",
+    "to": "2022-12-31",
+    "method": "betweenDates"
+  },
+  {
+    "name": "irssi",
+    "url": "https://github.com/irssi/irssi",
+    "from": "2013-01-01",
+    "to": "2022-12-31",
     "method": "betweenDates"
   }
 ]
