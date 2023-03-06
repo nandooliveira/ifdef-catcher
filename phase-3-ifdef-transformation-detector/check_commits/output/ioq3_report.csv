@@ -1,0 +1,9 @@
+url,old_path,new_path,old_loc,new_loc,old_block,new_block,old_disciplined,new_disciplined,old_undisciplined,new_undisciplined,commit_hash,author
+https://github.com/ioquake/ioq3,code/renderergl1/tr_mesh.c,code/renderergl1/tr_mesh.c,273,269,2,0,1,0,1,0,ecd50f01c209d4507aee826436d09a1ccd894a4c,Committer [name=Tim Angus; email=tim@ngus.net]
+https://github.com/ioquake/ioq3,code/renderergl1/tr_model.c,code/renderergl1/tr_model.c,878,861,9,1,7,1,2,0,ecd50f01c209d4507aee826436d09a1ccd894a4c,Committer [name=Tim Angus; email=tim@ngus.net]
+https://github.com/ioquake/ioq3,code/renderergl2/tr_mesh.c,code/renderergl2/tr_mesh.c,258,254,2,0,1,0,1,0,ecd50f01c209d4507aee826436d09a1ccd894a4c,Committer [name=Tim Angus; email=tim@ngus.net]
+https://github.com/ioquake/ioq3,code/renderergl2/tr_model.c,code/renderergl2/tr_model.c,1080,1063,19,11,17,11,2,0,ecd50f01c209d4507aee826436d09a1ccd894a4c,Committer [name=Tim Angus; email=tim@ngus.net]
+https://github.com/ioquake/ioq3,code/tools/lcc/lburg/gram.c,code/tools/lcc/lburg/gram.c,642,995,22,53,21,53,1,0,68dbb8a1bbf2df1b5b8e49a1703adebb2c678c84,Committer [name=Tim Angus; email=tim@ngus.net]
+https://github.com/ioquake/ioq3,code/qcommon/vm_armv7l.c,code/qcommon/vm_armv7l.c,865,874,4,7,4,5,0,2,7c252066a3bb3b33e0a9f514a1085333c1fca9f5,Committer [name=Zack Middleton; email=zack@cloemail.com]
+https://github.com/ioquake/ioq3,code/opusfile-0.8/src/http.c,code/opusfile-0.8/src/http.c,2340,2403,25,29,24,27,1,2,58a315fe3f39f0442666202f1222b73d9d8aae5f,Committer [name=Zack Middleton; email=zack@cloemail.com]
+https://github.com/ioquake/ioq3,code/sdl/sdl_snd.c,code/sdl/sdl_snd.c,309,311,6,12,6,11,0,1,92935df37b10f7b7f8ba828085e0cff6e6d95a69,Committer [name=Zack Middleton; email=zack@cloemail.com]
