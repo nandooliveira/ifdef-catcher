@@ -1,35 +1,14 @@
 [
   {
-    "name": "libxml2",
-    "url": "https://github.com/GNOME/libxml2",
+    "name": "toxic",
+    "url": "https://github.com/JFreegman/toxic",
     "from": "2013-01-01",
     "to": "2022-12-31",
     "method": "betweenDates"
   },
   {
-    "name": "moarvm",
-    "url": "https://github.com/MoarVM/MoarVM",
-    "from": "2013-01-01",
-    "to": "2022-12-31",
-    "method": "betweenDates"
-  },
-  {
-    "name": "mpvplayer",
-    "url": "https://github.com/mpv-player/mpv",
-    "from": "2013-01-01",
-    "to": "2022-12-31",
-    "method": "betweenDates"
-  },
-  {
-    "name": "msysgit",
-    "url": "https://github.com/msysgit/git",
-    "from": "2013-01-01",
-    "to": "2022-12-31",
-    "method": "betweenDates"
-  },
-  {
-    "name": "mupen64plus",
-    "url": "https://github.com/mupen64plus/mupen64plus-core",
+    "name": "vim",
+    "url": "https://github.com/vim/vim",
     "from": "2013-01-01",
     "to": "2022-12-31",
     "method": "betweenDates"
