@@ -1,6 +1,0 @@
-url,old_path,new_path,old_loc,new_loc,old_block,new_block,old_disciplined,new_disciplined,old_undisciplined,new_undisciplined,commit_hash,author
-https://github.com/luke-jr/bfgminer,lowl-pci.c,lowl-pci.c,414,431,0,8,0,6,0,2,fa180613692aa954ca9d725fd2a93b545c46bfde,Committer [name=Luke Dashjr; email=luke-jr+git@utopios.org]
-https://github.com/luke-jr/bfgminer,miner.c,miner.c,9954,9961,207,207,186,185,21,22,b2fdf76a26befcc14eb4fbb622c6e416638f18c9,Committer [name=Luke Dashjr; email=luke-jr+git@utopios.org]
-https://github.com/luke-jr/bfgminer,driver-opencl.c,driver-opencl.c,1512,1524,41,41,39,38,2,3,4ab27d7b0e324b9e62fd018aa2ca4fdea13158da,Committer [name=Luke Dashjr; email=luke-jr+git@utopios.org]
-https://github.com/luke-jr/bfgminer,miner.h,miner.h,1335,1276,28,0,27,0,1,0,9ac4b3f79b1be3bf28f1c7d4e07b843c83c68092,Committer [name=Kano; email=gitkanoi@k1k2.com]
-https://github.com/luke-jr/bfgminer,util.c,util.c,3402,3451,68,55,61,53,7,2,9ac4b3f79b1be3bf28f1c7d4e07b843c83c68092,Committer [name=Kano; email=gitkanoi@k1k2.com]

@@ -1,5 +1,0 @@
-url,old_path,new_path,old_loc,new_loc,old_block,new_block,old_disciplined,new_disciplined,old_undisciplined,new_undisciplined,commit_hash,author
-https://github.com/luke-jr/bfgminer,miner.c,miner.c,6884,6893,154,159,140,143,14,16,ccd6cebe47d2728523422fa6cc5ad1d06ffcf7d2,Committer [name=Luke Dashjr; email=luke-jr+git@utopios.org]
-https://github.com/luke-jr/bfgminer,cgminer.c,cgminer.c,5658,5691,137,148,123,132,14,16,c6a9f7d08b4618303cd9c95914729de441f685d3,Committer [name=Xiangfu; email=xiangfu@openmobilefree.net]
-https://github.com/luke-jr/bfgminer,cgminer.c,cgminer.c,5691,5693,148,148,132,130,16,18,5ce32becf2c09fe6a92951faac4b8fe12083d897,Committer [name=Xiangfu; email=xiangfu@openmobilefree.net]
-https://github.com/luke-jr/bfgminer,miner.c,miner.c,7037,7071,173,175,158,159,15,16,5cafc2be40f3314df447f730cacabe0ccaf111b2,Committer [name=Luke Dashjr; email=luke-jr+git@utopios.org]

@@ -1,9 +1,0 @@
-url,old_path,new_path,old_loc,new_loc,old_block,new_block,old_disciplined,new_disciplined,old_undisciplined,new_undisciplined,commit_hash,author
-https://github.com/irssi/irssi,src/core/network.c,src/core/network.c,469,382,31,6,26,4,5,2,87c0827471763ad5c086d1377ed91980e4b6c8d1,Committer [name=LemonBoy; email=thatlemon@gmail.com]
-https://github.com/irssi/irssi,src/core/servers.c,src/core/servers.c,545,541,2,0,1,0,1,0,6300dfec71d376c96351708f76a6c4ee4a187eb5,Committer [name=Alexander Færøy; email=ahf@0x90.dk]
-https://github.com/irssi/irssi,src/core/network-openssl.c,src/core/network-openssl.c,662,662,3,3,2,3,1,0,f533baa191428b3cbdbba151d575b69e3a783f68,Committer [name=Alexander Færøy; email=ahf@0x90.dk]
-https://github.com/irssi/irssi,src/fe-text/textbuffer.c,src/fe-text/textbuffer.c,484,473,10,5,6,2,4,3,8e5db471e4d8b052f072ce8a351222c6edb42d19,Committer [name=LemonBoy; email=thatlemon@gmail.com]
-https://github.com/irssi/irssi,src/fe-common/core/fe-ignore.c,src/fe-common/core/fe-ignore.c,214,219,0,2,0,1,0,1,f5cbbebc2ee858e8792ab40eea6abc9fd7865a28,Committer [name=Ailin Nemui; email=ailin@z30a.localdomain]
-https://github.com/irssi/irssi,src/fe-common/core/fe-ignore.c,src/fe-common/core/fe-ignore.c,219,214,2,0,1,0,1,0,79bbca4644cad7f2dee89c7ac6b8f9acc2c8b427,Committer [name=ailin-nemui; email=ailin-nemui@users.noreply.github.com]
-https://github.com/irssi/irssi,src/core/network-openssl.c,src/core/network-openssl.c,694,710,7,13,7,12,0,1,f5aa829bd084d279f9ae7eb27a52ea674adfed5d,Committer [name=Ailin Nemui; email=ailin@z30a.localdomain]
-https://github.com/irssi/irssi,src/fe-text/textbuffer.c,src/fe-text/textbuffer.c,484,246,5,0,2,0,3,0,f95fc811302eac53d020ef438cd914c564657be5,Committer [name=ailin-nemui; email=ailin-nemui@users.noreply.github.com]

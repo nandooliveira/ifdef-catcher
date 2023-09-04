@@ -12,7 +12,7 @@ module Report
         CSV.foreach(file_path, headers: true).with_index do |line, _line_number|
           next if line['url'].empty?
 
-          output_file.write("#{report},=\"#{line['url']}/commit/#{line['commit_hash']}?split=diff\",#{line[1..].join(',')}\n")
+          output_file.write("#{report},#{line['url']}/commit/#{line['commit_hash']}?split=diff,#{line[1..].join(',')}\n")
         end
       end
     end

@@ -1,2 +1,0 @@
-url,old_path,new_path,old_loc,new_loc,old_block,new_block,old_disciplined,new_disciplined,old_undisciplined,new_undisciplined,commit_hash,author
-https://github.com/luke-jr/bfgminer,api.c,api.c,3630,3651,69,69,67,66,2,3,61b260292630700e0b63cdfebcedfb1d9340cb41,Committer [name=Luke Dashjr; email=luke-jr+git@utopios.org]
